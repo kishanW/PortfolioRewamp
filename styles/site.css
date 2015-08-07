@@ -1,0 +1,153 @@
+/* CDN */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+/* Custom */
+@import url(fontello/fontello.css);
+@import url(animate.css);
+@import url(basic.css);
+@import url(buttons.css);
+@import url(colors.css);
+@import url(mainPage.css);
+
+
+.sidebar-left {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.sidebar-right {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.text-color-light{
+    color: #eee;
+}
+.text-color-dark{
+    color: #555;
+}
+
+.background-red{
+    background-color: #3F51B5;
+}
+.background-darkgray{
+    background-color: #434A54;
+}
+[data-section="profilePhoto"]{
+    width: 224px;
+    height: 224px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    left: 0;
+}
+[data-section="profilePhoto"] img{
+    display: inherit;
+    margin: auto;
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    background-color: #f45;
+}
+
+[data-section="profilePhoto"] h2{
+    font-size: 24px;
+    font-weight: 500;
+    color:#eee;
+    text-align: center;
+}
+
+[data-section="profilePhoto"] p, [data-section="profilePhoto"] p b{
+    color: #eee;
+    text-align: center;
+}
+
+.sidebar-right [data-role="mainPageTextContent"]{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+[data-role="mainPageTextContent"] h1[data-role="bigText"]{
+    font-size: 5em;
+    font-weight: 500;
+    /* font-family: 'Open Sans', sans-serif; */
+    text-align: center;
+}
+[data-role="mainPageTextContent"] p{
+    text-align: center;
+}
+
+ul[data-role="menu"]{
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    padding: 5px 0;
+    border-top: 2px solid rgba(0,0,0,0.2);
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+ul[data-role="menu"] li{
+    float: left;
+}
+ul[data-role="menu"] li a{
+    float: left;
+    padding: 0 10px 0 10px;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    /* font-size: 14px; */
+    font-weight: 700;
+    color: #434A54  ;
+    /* background-color: #FF5722; */
+    padding: 6px 10px;
+    /* border-radius: 8px; */
+    margin-right: 5px;
+    /* color: #eee; */
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+ul[data-role="menu"] li:last-child a{
+    border: none;
+}
+ul[data-role="menu"] li a:hover{
+    background-color: #FF9800;
+    color: #eee;
+    border-color:transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: example 0.5s infinite;
+    animation-iteration-count: 1;
+}
+
+ul[data-role="menu"] li a:hover i.fontello-icon{
+    color: #eee;
+}
+@keyframes example {
+    from {border-radius: 0;}
+    to {background-color: #FF9800;color: #eee;border-color:transparent;border-radius: 10px;cursor: pointer;}
+}

@@ -1,0 +1,6 @@
+.button-default{
+	min-width: 120px;
+	padding: 5px 10px;
+	border: none;
+	text-transform: capitalize;	
+}
