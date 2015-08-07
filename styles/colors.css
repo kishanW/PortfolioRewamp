@@ -1,26 +1,30 @@
 /* Text colors 
 */
-.text-color-light{
+.text-color-light, a.text-color-light{
     color: #eee;
 }
-.text-color-dark{
+.text-color-dark, a.text-color-dark{
     color: #555;
 }
 
 /*  Backgrounds
 */
-.background-blue{
-	background-color: #1aa5fd;
+.blue{
+	background-color: #3F51B5;
 }
-.background-green{
-
+.green{
+	background-color: #4CAF50;		
 }
-.background-red{
-
+.red{
+	background-color: #f45f45;
 }
-.background-orange{
-
+.orange{
+	background-color: #FF5722;
 }
-.background-darkgray{
+.darkgray{
+	background-color: #434A54;
+}
 
+.fontello-icon{
+	color: #eee;
 }
