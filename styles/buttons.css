@@ -1,6 +1,45 @@
-.button-default{
-	min-width: 120px;
-	padding: 5px 10px;
+[class^="button-"]{
+	border-radius: 10px;
 	border: none;
+	color: #eee;
+	font-weight: 700;
+	padding: 8px 15px;
+	text-align: center;
 	text-transform: capitalize;	
+}
+
+/*  Buttons
+*/
+.button-blue{
+	background-color: #3F51B5;
+}
+.button-green{
+	background-color: #4CAF50;		
+}
+.button-red{
+	background-color: #f45f45;
+}
+.button-orange{
+	background-color: #FF5722;
+}
+.button-darkgray{
+	background-color: #434A54;
+}
+
+/*  Background Hovers
+*/
+.button-blue:hover{
+	background-color: #2196F3;
+}
+.button-green:hover{
+	background-color: #8BC34A;		
+}
+.button-red:hover{
+	background-color: #E91E63;
+}
+.button-orange:hover{
+	background-color: #FF9800;
+}
+.button-darkgray:hover{
+	background-color: #656D78;
 }
