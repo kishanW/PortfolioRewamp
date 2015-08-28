@@ -1,0 +1,19 @@
+{
+  "name": "PortfolioRewamp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kishanW/PortfolioRewamp",
+  "authors": [
+    "Kishan Wanigasinghe <kwanigasinghe@quicksolutions.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
