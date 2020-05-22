@@ -1,0 +1,54 @@
+#commentForm{
+	width: 600px;
+	height: auto;
+	padding: 10px;
+	color: #fff;
+	background: #6E7E94;
+}
+#commentForm input[type="text"], textarea{
+	border: 1px solid #fff;
+	background: #edeff2;
+	width: 300px;
+	font-family: 'Segoe UI Light', 'OpenSansLight', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+#commentForm input[type="text"]:focus, textarea:focus{
+	border: 1px solid #f45;
+}
+#commentForm #button{
+	width: 100px;
+	height: 30px;
+	border: none;
+	background: #00C13F;
+	color: #fff;
+}
+#commentForm #reset{
+	margin-left: 10px;
+	width: 100px;
+	height: 30px;
+	border: none;
+	background: #f45;
+	color: #fff;
+}
+#viewEntries{
+	background: #FF981D;
+	color: #fff;
+	width: 150px;
+	height: auto;
+	padding: 5px;
+	float: right;
+	line-height: 30px;
+	text-align: center;
+}
+#commentForm #button:hover, #commentForm #reset:hover, #viewEntries:hover{
+	cursor: pointer;
+}
+#commentForm #button:hover{
+	background: #009f34;
+}
+#commentForm #reset:hover{
+	background: #ff2236;
+}
+#viewEntries:hover{
+	background: #fa8800;
+}

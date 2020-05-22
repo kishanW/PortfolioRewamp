@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!---Designer: Kishan Wanigasinghe; Version: Apr-10-2010; Contact: www.atox-d.com/contact.htm--->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>Franklin SIFE| Contact Us | Beta-2</title>
+		
+		<script type="text/javascript" src="contact.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style_menu.css">
+		<link rel="SHORTCUT ICON" href="images/favicon.gif"/>
+        <style type="text/css">
+            
+            .post {
+                width: auto;
+				background: transparent;
+				border: 0px;
+            }
+			.event{
+				border: 1px solid #B8B8B3;
+			}
+			#button, #reset{
+				background: white;
+				border: 1px solid #B8B8B3;
+			}
+			.boxs:focus{
+				background: #D7EDFF;
+				border: 1px solid #B8B8B3;
+			}
+			#cmnt{
+				position: relative;
+				margin: -175px 0px 0px 300px;
+			}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="index.htm">
+                <div id="logo">
+                </div>
+            </a>
+            <a href="index.htm">
+                <div id="header">
+                </div>
+            </a>
+            <div id="main_image">
+            </div>
+            <div id="menu">
+                <a href="about.htm">
+					<div id="item1">
+                  				About Us
+              			</div>
+
+				</a>
+                            <a href="benefits.htm">
+					<div id="item2">
+						Benefits
+					</div>
+				</a>
+				<a href="events.htm">
+					<div id="item3">
+						Events
+					</div>
+
+				</a>
+				<a href="#">
+					<div id="item4">
+						Networking/ Sponsors
+					</div>
+				</a>
+				<a href="#">
+					<div id="item5">
+						Career Connect
+					</div>
+
+				</a>
+				<a href="faq.htm">
+					<div id="item6">
+						FAQ
+					</div>
+				</a>
+				<a href="#">
+					<div id="item_last">
+						Contact
+					</div>
+
+				</a>
+
+            </div>
+            <div class="post" style="margin-top: 10px;">
+                <div class="event">
+                    <form id ="contact_form" method="POST" action="contact.php">
+					Fields marked (*) are required
+					
+					<p>First Name:<br>	
+					<input type="text" name="fName" id="fName" maxlength="20" class="boxs">
+	
+					<p>Last Name:* <br>
+					<input type="text" name="lName" id="lName" maxlength="30" class="boxs">
+					
+					<p>Email:* <br>
+					<input type="text" name="Email" id="email" maxlength="30" class="boxs">
+					
+					<p><input type="checkbox" name="cList" value="Yes" id="more_info">:Signup for the SIFE contact list?
+					
+					<div id="cmnt">
+						<p>Message:* <br>			
+						<textarea name="Message" style="width: 500px; height: 100px;" id="message" class="boxs"></textarea>
+						
+						<p><input type= "button" name="submit" id ="button" value="Send" onclick="checkFields()">
+						<input type="reset" name="reset" id ="reset" value="Clear">
+					</div>
+				</form>
+				</div>
+            </div>
+            <!---This is the end of the info box--->
+            <div class="footer">
+                <hr>www.FranklinSIFE.org | 2010 Copyright Protected. | www.atox-d.com
+            </div>
+        </div><!--container_finished-->
+    </body>
+</html>

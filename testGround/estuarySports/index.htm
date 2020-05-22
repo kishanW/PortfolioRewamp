@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>ABC | Welcome</title>
+		<link rel="stylesheet" type="text/css" href="css/style_main.css">
+		<script src="js/script_main.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(
+					function(){
+						$("body").hide();
+						$("body").fadeIn("slow");
+					}
+				);
+		</script>
+
+	</head>
+
+	<body>
+		<header>
+			<section>
+				<div id="logo"></div>
+				<div id="header-banner">Estuary<br/>Sports</div>
+			</section>
+			<nav>
+				<ul>
+					<li>About Us</li>
+					<li>Cricket</li>
+					<li>Rugby</li>
+					<li>Soccer</li>
+					<li>Contact Us</li>
+				</ul>
+			</nav>
+		</header>
+
+		<figure>
+			<section id="one">
+				<p class="article-title">Top Stories</p>
+				<ul>
+					<li>this is in a separate CSS file note that urls should be relative</li>
+					<li>Charlton yes, my div has a height and width set, the problem was just that my path wasn't configured</li>
+					<li>The problem is, it does not load the image, the background is just silver</li>
+					<li>I had a previously-written CSS header, and wanted to substitute an image for the background of the heade</li>
+				</ul>
+			</section>
+			<section id="two">
+				<p class="article-title">Featured</p>
+				<ul>
+					<li>this is in a separate CSS file note that urls should be relative</li>
+					<li>Charlton yes, my div has a height and width set, the problem was just that my path wasn't configured</li>
+					<li>The problem is, it does not load the image, the background is just silver</li>
+					<li>I had a previously-written CSS header, and wanted to substitute an image for the background of the heade</li>
+				</ul>
+			</section>
+			<section id="three">
+				<p class="article-title">Random</p>
+				<ul>
+					<li>this is in a separate CSS file note that urls should be relative</li>
+					<li>Charlton yes, my div has a height and width set, the problem was just that my path wasn't configured</li>
+					<li>The problem is, it does not load the image, the background is just silver</li>
+					<li>I had a previously-written CSS header, and wanted to substitute an image for the background of the heade</li>
+				</ul>
+			</section>
+			<section id="slideshow">
+				This is the slideshow here
+			</section>
+		</figure>
+		<section id="login">
+			<form>
+				<input type="text" id="login-form-username" placeholder="User Name"/>
+				<br/>
+				<input type="password" id="login-form-password" placeholder="Password"/>
+				<br/>
+				<input type="submit" id="login-submit-button" value="Login"/>
+			</form>
+		</section>
+		<section id="intro-text">
+			<article>
+				<p class="article-title">Who are we</p>
+				W3Schools is optimized for learning, testing, and training. Examples might be simplified to 
+				improve reading and basic understanding. Tutorials, references, and examples are constantly 
+				reviewed to avoid errors, but we cannot warrant full correctness of all content.
+			</article>
+		</section>
+		<section id="notifications">
+			<article>
+				<p class="article-title">A notification</p>
+				At w3schools.com you will learn how to make a website. We offer free tutorials in all web 
+				development technologies. Select a tutorial from the menu to the left. 
+				<br/>
+				<button id="do-stuff">Do Stuff</button>
+
+				<script>
+					$("#do-stuff").click(
+						function(){
+							$(this).fadeOut();
+						}
+					);
+				</script>
+
+			</article>
+		</section>
+		<footer>
+			www.kishanscompany.com | All Rights Reserved &copy;
+		</footer>
+	</body>
+</html>

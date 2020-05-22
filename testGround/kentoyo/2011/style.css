@@ -1,0 +1,131 @@
+body {
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+    position: relative;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+}
+
+hr {
+    border: 0;
+    color: #838080;
+    background-color: #dbe2e7;
+    height: 1px;
+    width: 100%;
+    text-align: left;
+}
+
+a {
+    color: #1f363d;
+    text-decoration: none;
+}
+
+b {
+    position: relative;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Trebuchet MS";
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h4 {
+    font-family: "Trebuchet MS";
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h5 {
+    position: relative;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.container {
+    margin: 50px auto 20px auto;
+    width: 580px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+    height: auto;
+    text-align: left;
+    z-index: 3;
+    background: #293934;
+    border: 0px solid #dbe2e7 ;
+    padding: 20px;
+    z-index: 0;
+    -moz-border-radius-bottomleft: 5px;  
+	-webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px;
+}
+.footer{
+	position: relative;
+	margin: 20px auto auto auto;
+	text-align: center; 
+	font-size: 11px; 
+	font-weight: none; 
+	color: #4c6b61;
+}
+.the_form{
+	position: relative;
+	margin: auto auto auto auto;
+	width: 350px;
+	padding: 20px;
+}
+.input_text_box {
+	margin-top: 10px;
+	border: 0px solid #838080;
+	height: 20px;
+	width: 150px;
+	border: 1px solid #293934;
+}
+.input_text_box:focus{
+	border: 1px solid orange;
+}
+.text_box_l{
+	position: relative;
+	margin: auto auto auto auto;
+	display: block;
+}
+.text_box_r{
+	position: relative;
+	margin: -132px auto auto 200px;
+	display: block;
+}
+#button{
+	position: relative;
+	width: 100px;	
+	height: 30px;
+	margin: 10px auto auto auto;
+	background: darkgreen url("images/button_bg.png");
+	background-repeat:repeat-x;
+	border: green;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+}
+#button:hover{
+	background: url("images/button_bg_h.png");
+}
+#infobox1{
+	position:  relative;
+	margin: -170px 0px auto 200px;
+	display:block;
+	width: 350px;
+	height: auto;
+	padding: 5px;
+	border: 1px solid lightgray;
+}
+#infobox2{
+	position: relative;
+	margin: 10px 0px auto 200px;
+	display:block;
+	width: 350px;
+	height: auto;
+	padding: 5px;
+	border: 1px solid lightgray;
+}

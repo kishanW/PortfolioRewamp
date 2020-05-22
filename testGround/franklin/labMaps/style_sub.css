@@ -1,0 +1,93 @@
+
+			.wrapper{
+				margin:0px auto 20px auto;
+				width: 940px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+				height: 500px;
+			    text-align:left;
+				z-index: 3;
+				background-color: white;
+				z-index: 2;
+			}
+			.dummy_bg{
+				position: absolute;
+				height: 690px;
+				width: 940px;
+				background-image: url("images/bg-strip.gif");
+				background-repeat: repeat-y;
+				
+				margin-left: 1px;
+				margin-top: 135px;
+				margin-bottom: 10px;
+				z-index: 1;
+			}
+			.logo{
+				position: absolute;
+				margin-left: 650px;
+				margin-top: -20px;
+				z-index:3;
+				
+			}
+			.Labmaps_title{
+				position: absolute;
+				z-index: 2;
+			}
+			.Labmaps_text{
+				position: absolute;
+				margin-left: 10px;
+				margin-top: 70px;
+				
+				font:11px Verdana,Arial;
+				letter-spacing: 5px;
+				color: white;
+				z-index: 2;
+			}
+			.top_header{
+
+				z-index: 4;
+				
+			}
+			.bg{
+				position: absolute;
+				width: 580px;
+				margin: 238px 0 0 1px;
+				background-color: white;
+				z-index:0;
+			}
+			.main_opts_l{
+				position: absolute;
+				margin-left: 52px;
+				margin-top: 335px;
+			}
+			
+			.main_opts_r{
+				position: absolute;
+				margin-left: 225px;
+				margin-top: 335px;
+			}
+			
+			.the_map{
+				position: absolute;
+				margin-top: 105px;
+				margin-left: 50px;
+			}
+			
+			.footer_links{
+				position: absolute;
+				font:9px Verdana,Arial;
+				letter-spacing: 2px;
+				color: #3f6075;
+				z-index: 9;
+				margin-top: 790px;
+				margin-left: 21px;
+				z-index: 2;
+			}
+			
+			.Labmaps_text a:link {text-decoration: none; color: white;}
+			.Labmaps_text a:visited {text-decoration: none; color: white;}
+			.Labmaps_text a:active {text-decoration: none; color: white;}
+			.Labmaps_text a:hover {text-decoration: underline; color: white;}
+			
+			body a:link {text-decoration: none; color: #3f6075;}
+			body a:visited {text-decoration: none; color: #3f6075;}
+			body a:active {text-decoration: none; color: #3f6075;}
+			body a:hover {text-decoration: underline; color: #003049;}

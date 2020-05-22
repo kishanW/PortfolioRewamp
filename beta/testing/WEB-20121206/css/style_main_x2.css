@@ -1,0 +1,167 @@
+#hr{
+	border-top:1px solid #ddd;
+	border-bottom: 1px solid #fff;
+	width: 100%;
+	display: block;
+}
+hr{
+	background-color: #eee;
+	height: 1px;
+}
+body{
+	font-family: 'Segoe UI Light', 'OpenSansLight', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	background-color: #fff;
+}
+h3{
+    font-family: 'Segoe UI Light','OpenSansLight',Verdana,Arial,Helvetica,sans-serif;
+    font-size: 20pt;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    line-height: 24pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h4{
+    font-family: 'Segoe UI Light','OpenSansLight',Verdana,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+    line-height: 24pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+footer{
+	border-top: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: auto;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+footer hr{
+	border-top:1px solid #ddd;
+	border-bottom: 1px solid #fff;
+}
+#container{
+	width: 1105px;
+	height: auto;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: none;
+	margin: -10px auto auto auto;
+	border: 0px solid #eee;
+}
+/*########################################################*/
+#userInfo{
+	clear: right;
+	float: left;
+}
+#userPic{
+	width: 275px;
+	height: 225px;
+	background: #fff;
+	overflow: hidden;
+}
+/*########################################################*/
+#introText{
+	background-color: #696969;
+	height: 135px;
+}
+#content{
+	width: 828px;
+	height: 370px;
+	float: left;
+	overflow: hidden;
+	background: #fff;
+	padding-top: 10px;
+}
+#content img{height: 100%; width: 100%}
+/*########################################################*/
+#floatMenu-x2{
+	width: 275px;
+	float: left;
+	margin-top: 4px;
+	background-color: #fff;
+	border-radius: 0px;
+	position: fixed;
+	top: 380px;
+}
+#introText{
+	width: 255px;
+	height: 50px;
+	background: #f45;
+    height: 125px;
+    margin-right: 0;
+    text-transform: none;
+}
+#introText:hover{
+	cursor: default;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.box{
+	width: 112.5px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 0px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.box .color-box{
+	width: 20px;
+	height: 20px;
+	display: block;
+	background-color: #000;
+	float: left;
+	margin-right: 5px;
+}
+.box p{
+	color: #444;
+	margin-top: -0px;
+}
+.box p:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.box a{
+	text-decoration: none;
+}
+#home .color-box{
+	background-color: #f45;
+}
+#projects .color-box{
+	background: #00A300;
+}
+#photography .color-box{
+	background: #ff8c00;
+}
+#repo .color-box{
+	background: #2D89EF;
+}
+#contact .color-box{
+	background: #696969;
+}
+/*#########  hovers  ##########*/
+#home:hover .color-box{
+	background-color: #ff7783;
+}
+#projects:hover .color-box{
+	background: #00c500;
+	cursor: pointer;
+}
+#photography:hover .color-box{
+	background: #ffb255;
+	cursor: pointer;
+}
+#repo:hover .color-box{
+	background: #5ca4f3;
+	cursor: pointer;
+}
+#contact:hover .color-box{
+	background: #828282;
+	cursor: pointer;
+}

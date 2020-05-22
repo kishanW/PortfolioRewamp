@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>User Comments Page | WEBD334</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+			body{
+				background: #212324;
+			}
+			hr{
+				background: #62686b;
+				border: none;
+			}
+			.container{
+				padding: 10px;
+				background: #525759;
+				border: 1px solid #525759;
+				font-size: 12px;
+				font-family: verdana, arial;
+				color: #f7f7f7;
+				border: 1px solid #62686b;
+			}
+		</style>
+
+		<script type="text/javascript">
+		  
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			Please leave a comment. <hr>
+		</div>
+
+	</body>
+</html>

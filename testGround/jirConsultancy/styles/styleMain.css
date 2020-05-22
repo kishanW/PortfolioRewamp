@@ -1,0 +1,57 @@
+body{
+	background: #0b0b09;
+	font-family: PTSans, verdana;
+}
+#container{
+	position: relative;
+	background: #272720;
+	margin: -10px auto auto auto;
+	width: 800px;
+	height: auto;
+	padding: 10px;
+	border: 1px solid #3a3a2f;
+	font-family: PTSans, Verdana, "Lucida Grande", arial, sans-serif;
+	font-size: 12px;
+	color: #e9e9e4;
+}
+#headerTitle{
+	text-align: right;
+	color: #e9e9e4;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "BebasNeueRegular";
+}
+#textContent{
+	margin: auto auto auto auto;
+	font-size: 11px;
+	word-spacing: 2px;
+}
+#mainImage{
+	margin: auto auto;
+	width: 600px;
+	height: 350px;
+	padding: 10px;
+	border: 1px solid lightgray;
+	overflow: hidden;
+	background: white url('images/main_image.png') center;
+}
+hr {
+    border: 0;
+    color: #4c4c3e;
+    background-color: #4c4c3e;
+    height: 1px;
+    width: 100%;
+    text-align: left;
+}
+h3{
+	font-family: PTSans, verdana;
+	font-size: 15px;
+}
+#footer{
+	position: relative;
+	margin: 20px auto 10px auto;
+	width: auto; 
+	text-align: center;
+	padding: 10px;
+	font-size: 11px;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>traffic.html</title>
+<style type="text/css">
+<!--
+  em,h1,h2,h3,h4,h5,h6,form,input,br,hr,p,td,th,li,ul {
+  font-family:Verdana,Arial,Helvetica,sans-serif; }
+
+  td {color:#000000; background-color:#cccccc;}
+
+  th {color:#000000; background-color:#999999;}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+
+<!-- HEADER -->
+<h1>Traffic analysis for HTTP, FTP/SFTP, e-mail and WebDAV</h1>
+<p>
+The following analysis shows your monthly data transfer volumes for
+the current year, divided up into HTTP, FTP, e-mail and WebDAV.
+A summary is shown in the first two columns.
+</p>
+
+<p>
+HTTP, WebDAV and FTP/SFTP traffic is based on the access.log.&lt;week&gt;.&lt;weekday&gt;,
+dav.log.&lt;week&gt;.&lt;weekday&gt;, ftp.xferlog and sftp.log files
+respectively, located in your '/logs' directory (separate FTP transfer logs
+apply to packages with a non-shared IP address only).
+</p>
+
+<p>
+The column labeled "quantity" of the category mail indicates the number
+of e-mails that originated from scripts running on your virtual host.
+This does not include e-mails sent via mailing lists.
+</p>
+
+<p>
+The number of megabytes in each category indicates how many megabytes
+were actually consumed by the specified number of requests.
+</p>
+
+<table border="0" cellspacing="2" cellpadding="3">
+<thead>
+<tr>
+<th></th>
+<th colspan="2">Total</th>
+<th colspan="2">HTTP</th>
+<th colspan="2">FTP/SFTP</th>
+<th colspan="2">Mail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Month</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Quantity</th>
+</tr>
+<tr><th><a href="12.html">2012-12</a></th>
+<td align="right">359.1</td><td align="right" style="border-left:0px;">3,611</td>
+<td align="right">359.1</td><td align="right" style="border-left:0px;">3,611</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2012-12 359.074 3611 359.072 3611 0.000 0 0.003 0 -->
+<tr><th><a href="11.html">2012-11</a></th>
+<td align="right">642.7</td><td align="right" style="border-left:0px;">14,393</td>
+<td align="right">642.7</td><td align="right" style="border-left:0px;">14,376</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">17</td>
+</tr>
+<!-- 2012-11 642.684 14393 642.672 14376 0.000 0 0.012 17 -->
+<tr><th><a href="10.html">2012-10</a></th>
+<td align="right">168.5</td><td align="right" style="border-left:0px;">4,944</td>
+<td align="right">168.5</td><td align="right" style="border-left:0px;">4,938</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">6</td>
+</tr>
+<!-- 2012-10 168.459 4944 168.452 4938 0.000 0 0.007 6 -->
+<tr><th><a href="09.html">2012-09</a></th>
+<td align="right">228.4</td><td align="right" style="border-left:0px;">3,737</td>
+<td align="right">228.4</td><td align="right" style="border-left:0px;">3,733</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">4</td>
+</tr>
+<!-- 2012-09 228.368 3737 228.364 3733 0.000 0 0.004 4 -->
+<tr><th><a href="08.html">2012-08</a></th>
+<td align="right">224.6</td><td align="right" style="border-left:0px;">4,300</td>
+<td align="right">224.6</td><td align="right" style="border-left:0px;">4,293</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">7</td>
+</tr>
+<!-- 2012-08 224.621 4300 224.614 4293 0.000 0 0.007 7 -->
+<tr><th><a href="07.html">2012-07</a></th>
+<td align="right">296.0</td><td align="right" style="border-left:0px;">5,240</td>
+<td align="right">296.0</td><td align="right" style="border-left:0px;">5,229</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">11</td>
+</tr>
+<!-- 2012-07 296.032 5240 296.020 5229 0.000 0 0.012 11 -->
+<tr><th><a href="06.html">2012-06</a></th>
+<td align="right">235.9</td><td align="right" style="border-left:0px;">4,051</td>
+<td align="right">235.9</td><td align="right" style="border-left:0px;">4,044</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">7</td>
+</tr>
+<!-- 2012-06 235.908 4051 235.901 4044 0.000 0 0.007 7 -->
+<tr><th><a href="05.html">2012-05</a></th>
+<td align="right">810.2</td><td align="right" style="border-left:0px;">8,977</td>
+<td align="right">810.1</td><td align="right" style="border-left:0px;">8,927</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">50</td>
+</tr>
+<!-- 2012-05 810.172 8977 810.133 8927 0.000 0 0.039 50 -->
+<tr><th><a href="04.html">2012-04</a></th>
+<td align="right">471.9</td><td align="right" style="border-left:0px;">5,985</td>
+<td align="right">471.9</td><td align="right" style="border-left:0px;">5,983</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">2</td>
+</tr>
+<!-- 2012-04 471.899 5985 471.897 5983 0.000 0 0.002 2 -->
+<tr><th><a href="03.html">2012-03</a></th>
+<td align="right">664.8</td><td align="right" style="border-left:0px;">7,623</td>
+<td align="right">664.5</td><td align="right" style="border-left:0px;">7,476</td>
+<td align="right">0.4</td><td align="right" style="border-left:0px;">147</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2012-03 664.837 7623 664.464 7476 0.373 147 0.000 0 -->
+<tr><th><a href="02.html">2012-02</a></th>
+<td align="right">363.4</td><td align="right" style="border-left:0px;">10,200</td>
+<td align="right">363.4</td><td align="right" style="border-left:0px;">10,195</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">5</td>
+</tr>
+<!-- 2012-02 363.421 10200 363.417 10195 0.000 0 0.004 5 -->
+</tbody>
+</table>
+
+<!-- FOOTER -->
+<pre>
+1 kB = 1000 Bytes
+1 MB = 1000 kB
+1 GB = 1000 MB
+</pre>
+
+
+</body>
+</html>

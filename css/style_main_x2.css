@@ -1,0 +1,172 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700,800");
+*{
+	border: 0px solid #999;
+	font-family: 'Open Sans' !important;
+	font-weight: 500;
+	
+}
+#hr{
+	border-top:1px solid #ddd;
+	border-bottom: 1px solid #fff;
+	width: 100%;
+	display: block;
+}
+hr{
+	background-color: #eee;
+	height: 1px;
+}
+body{
+	font-size: 14px;
+	color: #fff;
+	background-color: #fff;
+}
+h3{
+    font-size: 20pt;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    line-height: 24pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h4{
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+    line-height: 24pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+footer{
+	background: rgba(0,0,0,0.3);
+    color: #FFFFFF;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+footer hr{
+	border-top:1px solid #ddd;
+	border-bottom: 1px solid #fff;
+}
+#container{
+	width: 1105px;
+	height: auto;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: none;
+	margin: -10px auto auto auto;
+	border: 0px solid #eee;
+}
+/*########################################################*/
+#userInfo{
+	clear: right;
+	float: left;
+}
+#userPic{
+	width: 275px;
+	height: 225px;
+	background: #fff;
+	overflow: hidden;
+}
+/*########################################################*/
+#introText{
+	background-color: #696969;
+	height: 135px;
+}
+#content{
+	width: 828px;
+	height: 370px;
+	float: left;
+	overflow: hidden;
+	background: #fff;
+	padding-top: 10px;
+}
+#content img{height: 100%; width: 100%}
+/*########################################################*/
+#floatMenu-x2{
+	width: 275px;
+	float: left;
+	margin-top: 4px;
+	background-color: #ecf0f1;
+	border-radius: 0px;
+	box-shadow: 0 0 1px #aaa;
+	position: fixed;
+	top: 380px;
+}
+#introText{
+	width: 255px;
+	background: #f45;
+    min-height: 125px;
+    margin-right: 0;
+    text-transform: none;
+}
+#introText:hover{
+	cursor: default;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.box{
+	width: 112.5px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 0px;
+	padding: 10px;
+	/*text-transform: uppercase;*/
+}
+.box .color-box{
+	width: 20px;
+	height: 20px;
+	display: block;
+	background-color: #000;
+	float: left;
+	margin-right: 5px;
+}
+.box p{
+	color: #444;
+	margin-top: -0px;
+}
+.box p:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.box a{
+	text-decoration: none;
+}
+#home .color-box{
+	background-color: #f45;
+}
+#projects .color-box{
+	background: #00A300;
+}
+#photography .color-box{
+	background: #ff8c00;
+}
+#repo .color-box{
+	background: #2D89EF;
+}
+#contact .color-box{
+	background: #696969;
+}
+/*#########  hovers  ##########*/
+#home:hover .color-box{
+	background-color: #ff7783;
+}
+#projects:hover .color-box{
+	background: #00c500;
+	cursor: pointer;
+}
+#photography:hover .color-box{
+	background: #ffb255;
+	cursor: pointer;
+}
+#repo:hover .color-box{
+	background: #5ca4f3;
+	cursor: pointer;
+}
+#contact:hover .color-box{
+	background: #828282;
+	cursor: pointer;
+}

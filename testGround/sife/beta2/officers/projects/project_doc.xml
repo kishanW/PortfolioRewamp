@@ -1,0 +1,82 @@
+<PROJECTS>
+
+<PROJECT>
+<ID>
+1
+</ID>
+<NAME>
+Career Connect
+</NAME>
+<OWNER>
+Raginkumar Patel
+</OWNER>
+<SUMMARY>
+A web portal for the students/ Alumni to access career tools.
+</SUMMARY>
+<DESC>
+Career Connect is to create a bridge between students and employers, Career Connect was an idea to create a website matching Franklin students and alumni looking for internships and jobs with potential employers.
+</DESC>
+</PROJECT>
+
+
+<PROJECT>
+<ID>
+2
+</ID>
+<NAME>
+Website maintenance
+</NAME>
+<OWNER>
+Kishan Wanigasinghe
+</OWNER>
+<SUMMARY>
+Maintenance of the official website for Franklin SIFE.
+</SUMMARY>
+<DESC>
+Maintenance and development of the official website for Franklin SIFE. This includes regular updates and development of tools for the future use.
+
+The website will be used as the portal for all the official publications which will eventually standardize all the communication methods for the organization.
+</DESC>
+</PROJECT>
+
+
+<PROJECT>
+<ID>
+3
+</ID>
+<NAME>
+Campbell's Lets Can Hunger Challenge
+</NAME>
+<OWNER>
+Annie Kerr
+</OWNER>
+<SUMMARY>
+A food drive organized by Franklin SIFE to relief people from hunger.
+</SUMMARY>
+<DESC>
+The Campbell's Let's Can Hunger Challenge, sponsored by Campbell Soup Company, is a comprehensive hunger challenge including: raising awareness, translating awareness to action in the form of urgent hunger relief and empowering those in need to defeat the cycle of hunger.
+
+Join us with this project to help relief people from hunger by raising awareness and to empower people to do so.
+</DESC>
+</PROJECT>
+
+
+<PROJECT>
+<ID>
+4
+</ID>
+<NAME>
+Newsletter for SIFE.
+</NAME>
+<OWNER>
+Kumar Rachuri
+</OWNER>
+<SUMMARY>
+Newsletter for SIFE.
+</SUMMARY>
+<DESC>
+Newsletter for SIFE that will inform Franklin Students and Staff.
+</DESC>
+</PROJECT>
+
+</PROJECTS>

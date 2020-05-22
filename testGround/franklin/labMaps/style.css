@@ -1,0 +1,98 @@
+			.wrapper{
+				margin:0px auto 20px auto;
+				width: 940px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+				height: 725px;
+			    text-align:left;
+				z-index: 3;
+				background-color: white;
+			}
+			.top_header{
+				z-index: 2;
+			}
+			.logo{
+				position: absolute;
+				margin-left: 650px;
+				margin-top: -20px;
+				z-index:1;
+			}
+			.Labmaps_title{
+				position: absolute;
+				
+			}
+			.Labmaps_text{
+				position: absolute;
+				margin-left: 10px;
+				margin-top: 70px;
+				z-index: 1;
+				
+				font:11px Verdana,Arial;
+				letter-spacing: 4px;
+				color: white;
+			}
+			.bg{
+				position: absolute;
+				margin: 102px 0 0 2px;
+			}
+			.the_world_map{
+				position: absolute;
+				margin-left: 10px;
+				margin-top: 140px;
+			/*	visibility: hidden;*/
+			}
+			.main_img{
+				position: absolute;
+				margin-top: 193px;
+				margin-left: 447px;
+			}
+			.footer_links{
+				position: absolute;
+				font:9px Verdana,Arial;
+				letter-spacing: 1px;
+				color: #3f6075;
+				z-index: 9;
+				margin-top: 655px;
+				margin-left: 65px;
+			}
+			.dwn_twn a{
+				position: absolute;
+				margin-top: 300px;
+				margin-left: 175px;
+				width: 4px;
+				height: 4px;
+				border: 2px solid black;
+				background-color: white;
+			}
+			.dwn_twn a:hover{
+				width: 600px;
+				height: 220px;
+				border: 1px solid white;
+				padding-bottom: 0px;
+				background-image: url(images/map/ohio.png);
+				background-repeat: no-repeat;
+				/*firefox*/
+				opacity: 0.9;
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+				/* For IE 8 (and 9, 10, 11?). Don't miss the added quotes */
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+			}
+			.bottom_links{
+				position: absolute;
+				margin-top: 675px;
+				margin-left: 2px;
+				width: 937px;
+				height: 50px;
+				background-image: url(images/buttons_bottom/bottom_left_n.png); 
+				background-repeat: no-repeat; 
+			}
+			
+			
+			.Labmaps_text a:link {text-decoration: none; color: white;}
+			.Labmaps_text a:visited {text-decoration: none; color: white;}
+			.Labmaps_text a:active {text-decoration: none; color: white;}
+			.Labmaps_text a:hover {text-decoration: underline; color: white;}
+			
+			body a:link {text-decoration: none; color: #3f6075;}
+			body a:visited {text-decoration: none; color: #3f6075;}
+			body a:active {text-decoration: none; color: #3f6075;}
+			body a:hover {text-decoration: underline; color: #003049;}

@@ -1,0 +1,1 @@
+<a href="<?php bloginfo('rss2_url'); ?>" title="Subscribe To The Entries RSS Feed">Entries</a> | <a href="<?php bloginfo('comments_rss2_url'); ?>" title="Subscribe To The Comments RSS Feed">Comments</a>

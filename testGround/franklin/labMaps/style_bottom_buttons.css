@@ -1,0 +1,86 @@
+/* The bottom buttons set */
+	.bottom_links_l a{
+		position: absolute;
+		margin-top: 675px;
+		margin-left: 2px;
+		width: 312px;
+		height: 50px;
+		background-image: url(images/buttons_bottom/bottom_left_h.png);
+		background-repeat: no-repeat;
+	}
+	.bottom_links_l a:hover{
+		background-image: url(images/buttons_bottom/bottom_left_n.png);
+		background-repeat: no-repeat;
+	}
+	
+	.bottom_links_m a{
+		position: absolute;
+		margin-top: 675px;
+		margin-left: 312px;
+		width: 312px;
+		height: 50px;
+		background-image: url(images/buttons_bottom/bottom_middle_h.png);
+		background-repeat: no-repeat;
+	}
+	.bottom_links_m a:hover{
+		background-image: url(images/buttons_bottom/bottom_middle_n.png);
+		background-repeat: no-repeat;
+	}
+	.bottom_links_r a{
+		position: absolute;
+		margin-top: 675px;
+		margin-left: 624px;
+		width: 312px;
+		height: 50px;
+		background-image: url(images/buttons_bottom/bottom_right_h.png);
+		background-repeat: no-repeat;
+	}
+	.bottom_links_r a:hover{
+		background-image: url(images/buttons_bottom/bottom_right_n.png);
+		background-repeat: no-repeat;
+	}
+	
+/* The extended buttons set */
+	.bottom_links_l_ext a{
+		position: absolute;
+		margin-top: 815px;
+		margin-left: 2px;
+		width: 367px;
+		height: 50px;
+		background-image: url(images/buttons_bottom/buttons_ext/bottom_left_extended_flip.png);
+		background-repeat: no-repeat;
+		}
+	
+	.bottom_links_l_ext a:hover{
+		background-image: url(images/buttons_bottom/buttons_ext/bottom_left_extended.png);
+		background-repeat: no-repeat;
+	}
+	
+	.bottom_links_m_ext a{
+		position: absolute;
+		margin-top: 815px;
+		margin-left: 367px;
+		width: 367px;
+		height: 50px;
+		background-image: url(images/buttons_bottom/buttons_ext/bottom_middle_extended_flip.png);
+		background-repeat: no-repeat;
+		z-index: 99;
+	}
+	.bottom_links_m_ext a:hover{
+		background-image: url(images/buttons_bottom/buttons_ext/bottom_middle_extended.png);
+		background-repeat: no-repeat;
+	}
+	.bottom_links_r_ext a{
+		position: absolute;
+		margin-top: 815px;
+		margin-left: 734px;
+		width: 367px;
+		height: 50px;
+		background-image: url(images/buttons_bottom/buttons_ext/bottom_right_extended_flip.png);
+		background-repeat: no-repeat;
+		z-index: 99;
+	}
+	.bottom_links_r_ext a:hover{
+		background-image: url(images/buttons_bottom/buttons_ext/bottom_right_extended.png);
+		background-repeat: no-repeat;
+	}

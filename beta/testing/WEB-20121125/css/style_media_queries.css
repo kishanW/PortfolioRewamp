@@ -1,0 +1,17 @@
+@media screen and (max-width: 1110px){
+	#container{width: 275px;}
+	#content{width: 100%; overflow-y: auto; overflow-x:hidden; height: auto }
+
+	#repo-entries{width: 100%; padding: 10px 0px; margin-left: 0px;}
+	#repo-entries ul li{width: 100%; padding: 5px 0px 5px 5px; margin-right: 5px; overflow: hidden;}
+	#repo-entries ul li p{display: none;}
+	#repo-entries ul{height: 300px; overflow-x: hidden; overflow-y: auto;}
+	
+	#floatMenu-x2{top: 0px;float: left;position: relative; background-color: #eee;}
+	.jspHorizontalBar{visibility: hidden; }
+	.jspVerticalBar{background-color: #aaa}
+	.jspDrag{background-color:#aaa }
+	.jspTrack{background-color: #ddd;}
+	#contactForm{margin-left: 0px;width: 100%; height: auto;}
+	
+}

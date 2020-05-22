@@ -1,0 +1,2 @@
+<!-- Google News Element Code -->
+<iframe frameborder=0 marginwidth=0 marginheight=0 border=0 style="border:0;margin:0;width:300px;height:250px;" src="http://www.google.com/uds/modules/elements/newsshow/iframe.html?rsz=large&format=300x250&ned=us&topic=h&element=true" scrolling="no" allowtransparency="true"></iframe>

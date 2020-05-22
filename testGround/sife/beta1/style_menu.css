@@ -1,0 +1,118 @@
+#menu { 				/*---The_big_mother---*/
+    position: relative;
+    width: 226px;
+    height: 342px;
+    margin: 0px auto auto 0px;
+    background: white;
+    display: block;
+    border: 0px red solid;
+    color: white;
+	line-height: 40px;
+	font-size: 12px;
+	font-variant: small-caps;
+}
+#menu #item1 {/*---1---*/
+	float: left;
+	width: 226px;
+    height: 48px;
+    margin: 0px auto auto 0px;
+	background: url(images/menu_1.gif);
+    display: block;
+    border: 0px red solid;
+	text-align: center;	
+}
+#menu #item2{/*---2---*/
+	float: left;
+	width: 226px;
+    height: 48px;
+    margin: 1px auto auto 0px;
+	background: url(images/menu_2.gif);
+    display: block;
+    border: 0px red solid;
+	text-align: center;
+	
+}
+#menu #item3{/*---3---*/
+	float: left;
+	width: 226px;
+    height: 48px;
+    margin: 1px auto auto 0px;
+	background: url(images/menu_3.gif);
+    display: block;
+    border: 0px red solid;
+	text-align: center;
+	
+}
+#menu #item4{/*---4---*/
+	float: left;
+	width: 226px;
+    height: 48px;
+    margin: 1px auto auto 0px;
+	background: url(images/menu_4.gif);
+    display: block;
+    border: 0px red solid;
+	text-align: center;
+	
+}
+#menu #item5{/*---5---*/
+	float: left;
+	width: 226px;
+    height: 48px;
+    margin: 1px auto auto 0px;
+	background: url(images/menu_5.gif);
+    display: block;
+    border: 0px red solid;
+	text-align: center;
+	
+}
+#menu #item6{/*---6---*/
+	float: left;
+	width: 226px;
+    height: 48px;
+    margin: 1px auto auto 0px;
+	background: url(images/menu_6.gif);
+    display: block;
+    border: 0px red solid;
+	text-align: center;
+	
+}
+#menu #item_last{/*---7_last---*/
+	float: left;
+	width: 226px;
+    height: 48px;
+    margin: 1px auto auto 0px;
+	background: url(images/menu_7.gif);
+    display: block;
+    border: 0px red solid;
+	/*padding-bottom: 0px;*/
+	text-align: center;
+}
+/*----------------The mouseovers------------------------*/
+#menu #item1:hover{/*---1---*/
+	background: url(images/menu_h1.gif);
+	color: black;
+}
+#menu #item2:hover{/*---2---*/
+	background: url(images/menu_h2.gif);
+	color: black;	
+}
+#menu #item3:hover{/*---3---*/
+	background: url(images/menu_h3.gif);
+	color: black;	
+}
+#menu #item4:hover{/*---4---*/
+	background: url(images/menu_h4.gif);
+	color: black;	
+}
+#menu #item5:hover{/*---5---*/
+	background: url(images/menu_h5.gif);
+	color: black;	
+}
+#menu #item6:hover{/*---6---*/
+	background: url(images/menu_h6.gif);
+	color: black;	
+}
+#menu #item_last:hover{/*---7---*/
+	background: url(images/menu_h7.gif);
+	color: black;	
+}

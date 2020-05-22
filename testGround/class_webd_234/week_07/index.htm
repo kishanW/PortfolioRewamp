@@ -1,0 +1,79 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Looking For Love?</title>
+		<script type="text/javascript" src="lfl.js">
+			
+		</script>
+	</head>
+	<body>
+		<form>
+			<table width="99%">
+				<tr><td colspan="4">Lookin' For Luv</td></tr>
+				<tr>
+					<td>First Name</td>
+					<td><input type="text" maxlength="50" size="25" id="fname" /></td>
+					<td>Last Name</td>
+					<td><input type="text" maxlength="50" size="25" id="lname" /></td>
+				</tr>
+				<tr>
+					<td>Age</td>
+					<td><input type="text" id="userAge" maxlength="3" size="5" /></td>
+					<td></td><td></td>
+				</tr>
+				<tr>
+					<td>Your Gender</td>
+					<td>
+						<input type="radio" name="yourgender" value="M" /> Male&nbsp;&nbsp;
+						<input type="radio" name="yourgender" value="F" /> Female&nbsp;&nbsp;
+						<input type="radio" name="yourgender" value="O" /> Other
+					</td>
+					<td></td><td></td>
+				</tr>
+				<tr>
+					<td>Gender Looking For</td>
+					<td>
+						<input type="radio" name="luvagender" value="M" /> Male&nbsp;&nbsp;
+						<input type="radio" name="luvagender" value="F" /> Female&nbsp;&nbsp;
+						<input type="radio" name="luvagender" value="O" /> Other
+					</td>
+					<td></td><td></td>
+				</tr>
+				<tr>
+					<td>Age Range</td>
+					<td><input type="radio" name="agerange" value="18" /> 18-25</td>
+					<td>Hobbies</td>
+					<td><input type="checkbox" value="skeeball" /> Skeeball</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="radio" name="agerange" value="26" /> 26-40</td>
+					<td></td>
+					<td><input type="checkbox" value="airhockey" /> Air Hockey</td>
+				</tr>
+				<tr>
+					<td></td><td><input type="radio" name="agerange" value="41" /> 41-60</td>
+					<td></td><td><input type="checkbox" value="cliffdiving" /> Cliff Diving</td>
+				</tr>
+				<tr>
+					<td></td><td><input type="radio" name="agerange" value="61" /> Really Old</td>
+					<td></td><td><input type="checkbox" value="hamracing" /> Hamster Racing</td>
+				</tr>
+				<tr>
+					<td>Age Difference</td>
+					<td><input type="text" id="ageDiff" maxlength="3" size="5" />&nbsp;
+						<input type="button" value="Age Diff" onclick="calcAgeDiff()" /></td>
+					<td></td><td></td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<input type="button" value="Find Love" onclick="checkForm()"/>
+						&nbsp;&nbsp;&nbsp;
+						<input type="reset" value="Be Lonely" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

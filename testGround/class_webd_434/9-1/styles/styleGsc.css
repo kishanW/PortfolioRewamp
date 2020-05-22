@@ -1,0 +1,10 @@
+.gsc-results gsc-webResult{
+	background: green
+}
+.gsc-result gsc-webResult{
+	background: yellow
+}
+.gs-result gs-webResult{
+	background: orange
+}
+.cse input.gsc-input,input.gsc-input{background-image:none !important}

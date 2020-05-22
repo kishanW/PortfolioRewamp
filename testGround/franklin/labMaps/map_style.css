@@ -1,0 +1,17 @@
+.map a {
+				position: absolute;
+				margin-top: 120px;
+				margin-left: 10px;
+				display:block;
+				width: 920px;
+				height: 450px;
+		/*		padding: t r b l */
+				padding:20px 0px 20px 0px;
+				font: bold 13px sans-serif;;
+				color:#333;
+				/*background: url("images/map/the_map2.png") 0 0 no-repeat;*/
+				text-decoration: none;
+				color: black;
+				z-index: 999;
+			}
+

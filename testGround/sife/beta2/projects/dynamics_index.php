@@ -1,0 +1,130 @@
+<?php
+	include("projects_listing.php");	
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>Franklin SIFE | Projects</title>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="stylesheet" type="text/css" href="../style_menu.css">
+	 <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="SHORTCUT ICON" href="../images/favicon.gif"/>
+        <style type="text/css">
+            a{
+            	color: inherit;
+            }
+			a:hover{
+            	color:white;
+            }
+            .post {
+                width: auto;
+            }
+            
+            #main_image {
+                background: url(../images/2010_07_7_5.png) no-repeat;
+            }
+            
+            .event {
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;
+            }
+            
+            .event hr {
+                background: #B8B8B3;
+                color: #B8B8B3;
+            }
+			#moreinfo_prj {
+			    position: relative;
+				float: left;
+			    display: block;
+			    margin: 5px 0px auto auto;
+			    width: 120px;
+			    height: 10px;
+			    padding: 5px 5px;
+			    border: 1px solid #dbe2e7;
+			    background: white;
+			    line-height: 10px;
+			    text-align: center;
+			    color: black;
+			}
+			
+			#moreinfo_prj:hover {
+			    background: #1f272e;
+			    color: white;
+			    border: 1px solid transparent;
+			    cursor:pointer;
+			}
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="../index.htm">
+                <div id="logo">
+                </div>
+            </a>
+            <a href="../index.htm">
+                <div id="header">
+                </div>
+            </a>
+            <div id="main_image">
+            </div>
+            <a href="../register.htm"><!--registration-->
+	            <div class="register">
+	                &#187; Click here to register and become a member.
+	            </div>
+			</a>
+	     <a href="http://www.sife.org/GetInvolved/pages/register.aspx" target="new"><!--registration-->
+	            <div class="register_main_org">
+	                <!---this is the button to direct the people to the main SIFE website for registreation.-->
+			  &#187; Register with SIFE headquarters
+	            </div>
+	     </a>
+            <div id="menu">
+                <a href="../about.htm">
+                    <div id="item1">
+                        About Us
+                    </div>
+                </a>
+                <a href="../benefits.htm">
+                    <div id="item2">
+                        Benefits
+                    </div>
+                </a>
+                <a href="../events/">
+                    <div id="item3">
+                        Events
+                    </div>
+                </a>
+                <a href="#">
+                    <div id="item4" style="background: #2E4356; color: white;">
+                        Projects
+                    </div>
+                </a>
+                <a href="../uc.htm">
+                    <div id="item5">
+                        Career Connect
+                    </div>
+                </a>
+                <a href="../faq.htm">
+                    <div id="item6">
+                        FAQ
+                    </div>
+                </a>
+                <a href="../contact.htm">
+                    <div id="item_last">
+                        Contact
+                    </div>
+                </a>
+            </div>
+
+		<?php
+			//This is where everything starts to execute.
+			$PrjList = new PrjListing;
+			$PrjList->PrintList();
+		?>
+		
+        </div><!--container_finished-->
+    </body>
+</html>

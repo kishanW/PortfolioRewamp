@@ -1,0 +1,72 @@
+body{
+	font:11px Verdana, Geneva;
+}
+.head{
+	font:14px Verdana, Geneva;
+	color: #48463C;
+	font-weight: 700;
+	padding-left: 0px
+}
+.container{
+		margin:-5px auto 20px auto;
+		width: 950px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+		height: auto;
+		text-align:left;
+		z-index: 3;
+		background-color: #6699CC;
+}
+.header{
+	width: 950px;
+	height: 98px;
+	background: white url("images/header_bg.gif");
+	background-repeat: repeat-x;
+	z-index: 102;
+	overflow: hidden;
+}
+.header #logo{
+	width:113px;
+	height:98px;
+	position: absolute;
+	margin: 0px auto auto 0px;
+	z-index: 101;
+}
+.header #main_title{
+	width: 440px;
+	height: 98px;
+	position: absolute;
+	margin: 0px auto auto 113px;
+	z-index: 101;
+}
+.connect_sideLink a{
+	width: 35px;
+	height: 163px;
+	overflow: hidden;
+	position: absolute;
+	margin: -98px auto auto 950px;
+	background: white url(images/connect_sidelinks.gif);
+	z-index: 101;
+}
+.connect_sideLink a:hover{
+	background: white url(images/connect_sidelinks_h.gif);
+}
+.intro_text{
+	width: 600px;
+	height: 171px;
+	position: absolute;
+	margin: 450px auto auto 270px;
+	border: 0px solid #bcbcb6;
+	font:11px Verdana, Geneva;
+	z-index: 105;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+.star{
+	width: 180px;
+	height: 169px;
+	position: absolute;
+	margin: 450px auto auto 79px;
+	background: white url(images/star.png);
+	background-repeat: no-repeat;
+	border: 3px solid #bcbcb6;
+	z-index: 105;
+}

@@ -1,0 +1,238 @@
+/* Dropped divs
+-This was applied to all the inputs in the form.
+#prj_frm{
+	position: relative;
+	display: block;
+}
+
+*/
+body {
+    position: relative;
+    background: #F3F3F3;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: grays;
+}
+
+hr {
+    border: 0;
+    color: #838080;
+    background-color: #dbe2e7;
+    height: 1px;
+    width: 100%;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+b {
+    
+    font-weight: bold;
+}
+
+h3 {
+    /*font-weight: bold;
+    font-size: 14px;*/
+    position: relative;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-size: 14px;
+    color: #1f363d;
+}
+
+h4 {
+    position: relative;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+h5 {
+    position: relative;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.container{
+    position: relative;
+    margin: -30px auto 20px auto;
+    width: 980px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+    height: auto;
+    text-align: left;
+    background: white;
+    border: 1px solid #dbe2e7 ;
+    padding: 20px;
+    z-index: 0;
+    -moz-border-radius-bottomleft: 5px;  
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px; 
+    -webkit-border-bottom-right-radius: 5px;
+}
+#prj_form{
+	position: relative;
+	width: 400px;
+	height: auto;
+	margin: 20px auto auto auto;
+	border: 0px solid lightgray;
+	padding: 10px;
+	display: block;
+}
+.boxes{
+	border: 1px solid lightgray;
+	background: white;
+	font-family: Verdana;
+	font-size: 11px;
+	height: 15px;
+}
+.boxes:focus{
+	border: 1px solid #2BCBFF;
+	background: #f7fdff;
+}
+
+#buttons{
+	position: relative;
+	margin: auto auto auto 200px;
+	border: 1px solid lightgray;
+	height: 50px;
+	width: 200px;
+	text-alighn: center;
+	color: gray;
+	padding: 5px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	background-image: url("images/button.png");
+	background-repeat: repeat-x;
+	display: block;
+}
+#buttons:hover{
+	color: white;
+	border: 1px solid #2BCBFF;
+	background-image: url("images/button_h.png");
+}
+.project{
+	position: relative;
+	width: 970px;
+	margin: 10px auto auto 3px;
+	padding: 5px;
+	background: none;
+	border: 0px solid lightgray;
+}
+.project_head{
+	position: relative;
+	margin: auto auto auto -6px;
+	background: #cbdfe5;
+	height: 20px;
+	width: auto;
+	line-height: 20px;	
+	padding: 5px;
+	border-bottom: 2px solid #a9cad3;
+	color: #00475e;
+	font-size: 12px;
+	font-weight: bold;
+}
+#project_body{
+	position: relative;
+	margin: auto auto auto 2px;
+	background: #e2edf0;
+	height: auto;
+	width: auto;
+	padding: 5px;
+	border: 1px  solid #cbdfe5;
+	color: #777484;
+	/*border: 0px 1px 1px 1px;*/
+	/*line-height: 20px;*/
+}
+#project_labels{
+	float: left;
+	text-align: right;
+	margin: auto auto auto 3px;
+	background: none;
+	height: auto;
+	width: auto;
+	padding: 5px;
+	border: 0px  solid #cbdfe5;
+	border-right: 0px solid #cbdfe5;
+	color: #777484;
+}
+#project_label_details{
+	position: relative;
+	margin: auto auto auto 70px;
+	background: none;
+	height: auto;
+	width: auto;
+	padding: 5px;
+	border: 0px  solid #cbdfe5;
+	border-left: 1px solid #cbdfe5;
+
+	color: #777484;
+}
+.input_labels{
+	position: relative;
+	text-align:right;
+	margin: -00px 220px auto auto;
+	line-height: 35px;
+}
+.input_boxes{
+	position: relative;
+	margin: -287px auto auto 200px;
+}
+
+#lbl_name{
+	position: relative;
+	display: block;
+	margin: auto auto auto auto;
+}
+#lbl_owner{
+	position: relative;
+	display: block;
+	margin: -35px auto auto auto;
+}
+#lbl_summary{
+	position: relative;
+	display: block;
+	margin: -15px auto auto auto;
+}
+#lbl_desc{
+	position: relative;
+	display: block;
+	margin: 65px auto auto auto;
+}
+
+#prj_name, #prj_owner{
+	width: 400px;
+	padding: 2px;
+}
+#prj_summary{
+	height: 100px;
+	width: 400px;
+}
+#prj_desc{
+	height: 300px;
+	width: 400px;
+}
+.options{
+	position: relative;
+	display: block;
+	margin: 2px 10px auto auto;
+	background:#c7eefb;
+	height: 25px;
+	width: 200px;
+	color: #095a76;
+	padding: 5px;
+	border: 1px solid #b7e8fa;
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+}
+.options:hover{
+	background: #b7e8fa;
+}
+#backB{
+	position: fixed;
+	margin: auto auto auto 0px;
+	float: right;
+	right: 10px;
+	bottom: 100px;
+}

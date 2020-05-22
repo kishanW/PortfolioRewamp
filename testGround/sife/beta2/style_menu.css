@@ -1,0 +1,129 @@
+#menu { 				/*---The_big_mother---*/
+    position: relative;
+    width: 226px;
+    height: 338px;
+    margin: 2px auto auto 0px;
+    background: #F3F3F3;
+    display: block;
+    border: 1px #dbe2e7 solid;
+    color: white;
+    line-height: 40px;
+    font-size: 12px;
+    font-variant: small-caps;
+}
+#menu #item1 {/*---1---*/
+	float: none;
+	width: 208px;
+    height: 44px;
+    margin: 10px auto auto auto;
+	background: transparent  /*url(images/menu_1.gif)*/;
+    display: block;
+    border-bottom: 1px #9E9E9E solid;
+	text-align: center;	
+	color: black;
+}
+#menu #item2{/*---2---*/
+	float: none;
+	width: 208px;
+    height: 44px;
+    margin: 1px auto auto auto;
+	background: transparent /*url(images/menu_2.gif)*/;
+    display: block;
+    border-bottom: 1px #9E9E9E solid;
+	text-align: center;
+	color: black;
+	
+}
+#menu #item3{/*---3---*/
+	float: none;
+	width: 208px;
+    height: 44px;
+    margin: 1px auto auto auto;
+	background: transparent  /*url(images/menu_3.gif)*/;
+    display: block;
+    border-bottom: 1px #9E9E9E solid;
+	text-align: center;
+	color: black;
+	
+}
+#menu #item4{/*---4---*/
+	float: none;
+	width: 208px;
+    height: 44px;
+    margin: 1px auto auto auto;
+	background: transparent  /*url(images/menu_4.gif)*/;
+    display: block;
+    border-bottom: 1px #9E9E9E solid;
+	text-align: center;
+	color: black;
+	
+}
+#menu #item5{/*---5---*/
+	float: none;
+	width: 208px;
+    height: 44px;
+    margin: 1px auto auto auto;
+	background: transparent  /*url(images/menu_5.gif)*/;
+    display: block;
+    border-bottom: 1px #9E9E9E solid;
+	text-align: center;
+	color: black;
+	
+}
+#menu #item6{/*---6---*/
+	float: none;
+	width: 208px;
+    height: 44px;
+    margin: 1px auto auto auto;
+	background: transparent /*url(images/menu_6.gif)*/;
+    display: block;
+    border-bottom: 1px #9E9E9E solid;
+	text-align: center;
+	color: black;
+	
+}
+#menu #item_last{/*---7_last---*/
+	float: none;
+	width: 208px;
+    height: 44px;
+    margin: 1px auto auto auto;
+	background: transparent /*url(images/menu_6.gif)*/;
+    display: block;
+    border: 0px red solid;
+	/*padding-bottom: 0px;*/
+	text-align: center;
+	color: black;
+}
+/*----------------The mouseovers------------------------*/
+#menu #item1:hover{/*---1---*/
+	background: #dbe2e7/*url(images/right.gif) no-repeat*/;
+	cursor:pointer;
+	
+}
+#menu #item2:hover{/*---2---*/
+	background: #dbe2e7/*url(images/right.gif) no-repeat*/;
+	cursor:pointer;		
+}
+#menu #item3:hover{/*---3---*/
+	background: #dbe2e7/*url(images/menu_h3.gif)*/;
+	cursor:pointer;
+		
+}
+#menu #item4:hover{/*---4---*/
+	background: #dbe2e7/*url(images/menu_h4.gif)*/;
+	cursor:pointer;
+		
+}
+#menu #item5:hover{/*---5---*/
+	background: #dbe2e7/*url(images/menu_h5.gif)*/;
+	cursor:pointer;
+		
+}
+#menu #item6:hover{/*---6---*/
+	background: #dbe2e7/*url(images/menu_h6.gif)*/;
+	cursor:pointer;
+}
+#menu #item_last:hover{/*---7---*/
+	background: #dbe2e7/*url(images/menu_h7.gif)*/;
+	cursor:pointer;
+}

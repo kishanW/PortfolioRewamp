@@ -1,0 +1,154 @@
+body {
+    background: #000 url(images/bg_2.png) repeat-x;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+hr {
+    border: 0px;
+    color: #838080;
+    background-color: #dbe2e7;
+    height: 1px;
+    width: 100%;
+    text-align: left;
+}
+
+a {
+    color: #1f363d;
+    text-decoration: none;
+}
+
+b {
+    position: relative;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Trebuchet MS";
+    position: relative;
+    font-weight: bold;
+    font-size: 14px;
+	color: #fff;
+}
+
+h4 {
+    font-family: "Trebuchet MS";
+    position: relative;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+h5 {
+    position: relative;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+input, textarea {
+	border: 1px solid #838080;
+}
+input:focus, textarea:focus{
+	border: 1px solid orange;
+}
+.container {
+    margin: -10px auto 20px auto;
+    width: 850px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+    height: auto;
+    text-align: left;
+    z-index: 3;
+    background: none;
+    border: 0px solid #efede3 ;
+    border-top: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    z-index: 0;
+    -moz-border-radius-bottomleft: 5px;  
+	-webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px;
+}
+
+#header {
+    position: relative;
+    width: auto;
+    height: 150px;
+    margin: 0px auto auto 0px;
+    background: #FF6C00 url(images/header.png);
+    display: block;
+    border: 0px lightgray solid;
+    color: #000;
+    z-index: 1;
+    cursor:pointer;
+}
+
+#logo:hover {
+    background: white url(images/logo_h2.gif) no-repeat;
+}
+
+#header_ {
+    position: relative;
+    width: 550px;
+    height: 177px;
+    margin: -179px auto auto 0px;
+    float: right;
+    background: transparent url(images/header_2.gif);
+    display: block;
+    border: 1px lightgray solid;
+    color: red;
+    cursor:pointer;    
+}
+
+#main_image {
+    position: relative;
+    width: auto;
+    height: 240px;
+    margin: 10px 0px auto 230px;
+    background: transparent url(images/main_img.jpg) no-repeat;
+    display: block;
+    border: 0px lightgray solid;
+    /*padding-bottom: 0px;*/
+    text-align: center;
+	overflow: hidden;
+}
+
+#intro_text{
+	position: relative;
+	margin: 10px auto auto 0px;
+	width: 205px;
+    height: 100px;
+    padding: 10px;	
+	background: #FF6C00;
+    border: 0px solid #dfb400;
+    color: #fff;
+    text-align: left;
+    word-spacing: 2px;
+}
+#intro_text hr{
+   background: #fff;
+}
+#other_box{
+	position: relative;
+	margin:-120px auto auto 230px;
+	width: auto;
+    height: 100px;
+    padding: 10px;
+	background: #FF6C00;
+    border: 0px solid #dfb400;
+    color: #fff;
+    text-align: left;
+    word-spacing: 2px;
+}
+#other_box hr{
+   background: #fff;
+}
+
+.footer {
+    position: relative;
+    margin: 0px auto auto auto;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+.footer hr{
+	background: #fff;
+}

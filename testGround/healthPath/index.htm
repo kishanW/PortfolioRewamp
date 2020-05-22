@@ -1,0 +1,160 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+			*{
+				font-family: 'Open Sans', sans-serif;
+				padding: 0;
+				margin: 0;
+				-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+				-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+				box-sizing: border-box;         /* Opera/IE 8+ */
+			}
+			#mainMenu{
+				width: 100%;
+				height: 100px;
+				/* W3C Markup, IE10 Release Preview */ 
+				background-image: linear-gradient(to bottom right, #EEEEEE 0%, #DDDDDD 100%);
+				margin-bottom: 10px;
+			}
+			#mainMenu p{
+				color: #555;
+				font-weight: 700;
+				width: 100px;
+				border-left: 1px solid #ccc;
+				float: right;
+				height: 100px;
+				line-height: 100px;
+				text-align: center;
+			}
+			#mainMenu p:hover{
+				color: #eee;
+				background: #2ecc71;
+				border-color: #2ecc71;
+				cursor: pointer;
+			}
+			#mainMenu h3{
+				color: #444;	
+				float: left;
+				line-height: 100px;
+				margin-left: 10px;
+				font-size: 80px;
+			}
+			#leftPane{
+				width: 20%;
+				background: #fff;
+				float: left;
+			}
+			.post{
+				font-size: 14px;
+				width: 90%;
+				background: #16a085;
+				padding: 10px;
+				margin-bottom: 5px;
+
+			}
+			.post > .postHeader{
+				font-weight: 700;
+				font-size: 14px;
+				color: #eee;
+				border-bottom: 1px solid rgba(0,0,0,0.2);
+			}
+			.post > .postDate{
+				font-size: 10px;
+				color: #eee;
+
+			}
+			.post > .postBody{
+				font-size: 12px;
+				color: #eee;
+			}
+			#slideShow{
+				width: 60%;
+				height: 300px;
+				display: block;
+				background: #f45;
+				float: right;
+				border-radius: 10px;
+				overflow: hidden;
+				background-image: url("http://www.bd.com/responsibility/awareness_programs/images/dondyuk.jpg");
+			}
+			#rightPane{
+				width: 20%;
+				height: 100px;				
+				display: block;
+				float: right;
+				padding: 0px 10px 10px 10px;
+			}
+			#loginForm{
+				width: 100%;
+				background: #eee;
+				height: 100px;
+				padding: 5px;
+			}
+			#loginForm input{
+				border: none;
+				height: 25px;
+				width: 100%;
+				padding: 2px;
+				margin: auto;
+				display: block;
+				margin-bottom: 3px;
+				background: #ddd;
+				color: #333;
+			}
+			#loginForm input:focus{
+				border: 1px solid #2ecc71;
+			}
+			#loginForm button{
+				border: none;
+				border-radius: 0px;
+				width: 80px;
+				height: 25px;
+				float: right;
+				color: #fff;
+				font-weight: 700;
+				background: #27ae60; 
+			}
+			#loginForm button:hover{
+				background: #2ecc71;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="mainMenu">
+			<p id="banner">Contact Us</p>
+			<p>About Us</p>
+			<p>Home</p>
+			<h3>Health Path</h3>
+		</div>
+		<div id="leftPane">
+			<article class="post">
+				<p class="postHeader">Some Health Advice</p>
+				<p class="postDate">2013-10-20</p>
+				<p class="postBody">
+					Chicken nuggets are not good for you. Kids since no one is watching out enough for you, let me repeat this fact, "chicken nuggets BAD."
+				</p>
+			</article>
+
+			<article class="post">
+				<p class="postHeader">Central Ohio Schools</p>
+				<p class="postDate">2013-10-27</p>
+				<p class="postBody">
+					Central Ohio has some quality school systems and I would place Pickerington Central in this category. It all begins with excellent families and teachers.
+				</p>
+			</article>
+		</div>
+		<div id="rightPane">
+			<form id="loginForm">
+
+				<input type="text" placeholder="User Name"/>
+				<input type="password" placeholder="Password"/>
+				<button>Login</button>
+			</form>
+		</div>
+		<div id="slideShow">
+			<!-- Placeholder for the slideshow -->
+		</div>
+	</body>
+</html>

@@ -1,0 +1,84 @@
+figure{
+	height: auto;
+	background: #f1c40f;
+	clear: both;
+}
+figure section{
+	height: 100%;
+	padding: 10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	color: #fff;
+	overflow: hidden;
+}
+
+figure > section[id="summary"]{
+	width: 20%;
+	background: #E74C3C;
+	height: 360px;
+}
+figure > section[id="summary"] > ul[id="content-tags"]{
+	list-style: none;
+}
+figure > section[id="summary"] > ul[id="content-tags"] li{
+	float: left;
+	display: inline-block;
+	padding: 2px 5px;
+	margin-left: 5px;
+	border-radius: 5px;
+	background-color: #eee;
+	color: #444;
+}
+figure > section#content{
+	width: 80%;
+	height: auto;
+	min-height: 360px;
+	background: #f6f8f8;
+	color: #444;
+	float: right;
+	display: inline-block;
+}
+section#comments{
+	width: 80%;
+	height: auto;
+	/*background: #34495e;*/
+	float: right;
+	display: inline-block;
+	overflow: hidden;
+}
+section#comments article[class="comment"]{
+	width: 90%;
+	height: auto;
+	padding: 5px 10px;
+	background-color: #3498db;
+	color: #eee;
+	margin: auto auto;	
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+section#comments article[class="comment"] > p[class="comment-title"]{
+	text-transform: capitalize;
+	font-size: 13px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	width: 100%;
+	margin-bottom: 2px;
+	border-bottom: 1px solid #2980b9;
+}
+
+section#login{
+	width: 20%;
+	height: 200px;
+	margin-top: 0px;
+	background: #ecf0f1;
+	padding: 20px 10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+}

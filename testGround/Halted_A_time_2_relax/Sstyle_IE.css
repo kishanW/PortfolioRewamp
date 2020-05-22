@@ -1,0 +1,214 @@
+* {
+    border: 0px solid red;
+	position: relative;
+}
+
+hr {
+    border: 0;
+    color: #838080;
+    background-color: #dbe2e7;
+    height: 1px;
+    width: 100%;
+    text-align: left;
+}
+
+a {
+    color: #1f363d;
+    text-decoration: none;
+}
+
+b {
+    position: relative;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Trebuchet MS";
+    position: relative;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h4 {
+    font-family: "Trebuchet MS";
+    position: relative;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+h5 {
+    position: relative;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+body {
+    background: #fafbfb;
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.containeR {
+    margin: -10px auto 20px auto;
+    width: 980px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+    height: auto;
+    text-align: left;
+    z-index: 3;
+    background: white;
+    border: 1px solid #dbe2e7;
+    border-top: 1px solid #dbe2e7;
+    padding: 20px;
+    padding-top: 10px;
+    z-index: 0;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+
+#logO {
+    position: relative;
+    float: left;
+    margin: 12px auto auto auto;
+    height: 199px;
+	width: 200px; 
+	background: white url(images/logo.jpg) no-repeat;
+	border: 0px solid #dbe2e7;
+}
+
+#title_texT {
+    position: relative;
+    display: block;
+    margin: 0px 0px 0px 200px;
+    border: 0px solid red;
+    width: 780px;
+    height: 130px;
+    /*background: white url(images/header_title_bg.png);*/
+	border: 0px solid red;
+}
+
+.intro_texT {
+    position: relative;
+    margin: 20px auto 20px auto;
+    width: auto;
+    padding: 5px;
+    color: #10424d;
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    background: white;
+	/*background: #9CECFB url(images/header_text_bg.png) repeat-x bottom;*/
+    border: 0px solid #dbe2e7;
+}
+
+#main_imagE {
+    position: relative;
+    display: block;
+    margin: 00px auto auto auto;
+    width: 802px;
+    height: 304px;
+    padding: 5px;
+    border: 1px solid #dbe2e7;
+	background: white url(images/main_image.png) no-repeat center center;
+}
+
+.center_texT {
+    position: relative;
+    margin: 100px auto auto 0px;
+    width: auto;
+    padding: 5px;
+    color: #415361;
+    background: transparent;
+    border: 1px solid #1e7e94;
+}
+#offeR{
+	position: relative;
+	margin: 10px auto 10px 0px;
+	width: 200px;
+	height: auto;
+	padding: 5px;
+	color: white;
+	background: #9CECFB url(images/header_text_bg.png) repeat-x bottom;
+	border: 1px solid #4ec1db;
+	text-align: center;
+}
+#amta_logO{
+	position: relative;
+	float: right;
+	display: block;
+	margin: -135px auto 0px auto;
+	width: 85px;
+	height: 103px;
+	padding: 10px;
+	color: white;
+	background: white url(images/amta_logo.png) no-repeat center center;
+	border: 1px solid #dbe2e7;
+	text-align: center;
+	z-index: 2;
+}
+#footeR {
+    position: relative;
+	margin: 20px auto 0px auto;
+	text-align: center;
+    color: #10424d;
+	
+}
+.serv_image_txT{
+	display: block;
+	background: red;
+	margin: 100px 40px auto 0px;
+	padding: 5px 5px;
+	float:right;
+	width: 350px;
+	display: block;
+	background: #e9f7fb;
+	border: 1px solid #cdedf5;
+	text-align: center;
+}
+.dealS{
+	position: relative;
+    margin: auto auto 20px 50px;
+    width: 500px;
+}
+.deals hr{
+	background: #bdf2fc;
+}
+.deals #deals_title{
+	background: white;
+	padding: 5px;
+}
+.deals #deals_body{
+	position: relative;
+    margin: 5px auto auto 50px;
+    width: 500px;
+    padding: 5px;
+    color: #10424d;
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    background: white;
+	border: 1px solid #dbe2e7
+}
+.deals #deals_body:hover{
+	background: #ddf9fe /*url(images/header_text_bg.png) repeat-x bottom*/;
+    border: 1px solid #bdf2fc;
+}
+uL{
+	position: relative;
+	list-style-image: url("images/list_bullet.png");
+	border: 0px solid red;	
+	width: 170px;
+}
+#list_twO{
+	
+	width: 200px;
+	margin: -129px auto auto 250px;
+	border: 0px solid blue;	
+}
+/*
+ * color scheme 1: http://0to255.com/1e7e94
+ * color scheme 2: http://0to255.com/538fe9
+ * color scheme 3: http://0to255.com/648e2b
+ * color scheme 4: http://0to255.com/30d219
+ */ *
+/

@@ -1,0 +1,55 @@
+.site_body{
+	width: 951px;
+	height: 670px;
+	position: absolute;
+	margin: 39px auto auto -1px;
+	background: transparent url(images/body_bg_bottom.gif) center 650px;
+	background-repeat: no-repeat;
+	z-index: 102;
+}
+.site_body #site_body_content{
+	width: 948px;
+	height: 655px;
+	position: absolute;
+	border-left: 1px solid #bcbcb6;
+	border-right: 1px solid #bcbcb6;
+	margin: 0px auto auto 1px;
+	background: #e4e3da;
+	background-repeat: no-repeat;
+	z-index: 102;
+}
+.site_body #middle_banner{
+	position: absolute;
+	margin:350px auto 20px 1px;
+	width: 950px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+	height: 41px;
+	overflow: hidden;
+	background: #e4e3da url(images/middle_banner_bg.gif);
+	background-repeat: repeat-x;
+	z-index: 105;
+}
+.middle_banner_img{
+	margin:-1px auto 20px auto;
+	width: 218px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+	height: 41px;
+	overflow: hidden;
+	text-align:left;
+	position: relative;
+	
+	background-repeat: no-repeat;
+		
+	z-index: 105;
+}
+.main_img{
+	margin:60px auto 20px auto;
+	width: 793px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+	height: 308px;
+	overflow: hidden;
+	text-align:left;
+	position: relative;
+	background: #e4e3da url(images/main_img.jpg);
+	background-repeat: no-repeat;
+	border: 1px solid #bcbcb6;
+	z-index: 104;
+}
+

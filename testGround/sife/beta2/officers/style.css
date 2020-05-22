@@ -1,0 +1,131 @@
+body {
+    background: #F3F3F3;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+hr {
+    border: 0;
+    color: #838080;
+    background-color: #dbe2e7;
+    height: 1px;
+    width: 100%;
+    text-align: left;
+}
+
+a {
+    color: #1f363d;
+    text-decoration: none;
+}
+
+b {
+    position: relative;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Trebuchet MS";
+    position: relative;
+    font-weight: bold;
+    font-size: 14px;
+	color: #1f363d;
+}
+
+h4 {
+    font-family: "Trebuchet MS";
+    position: relative;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+h5 {
+    position: relative;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.container {
+    margin: -12px auto 20px auto;
+    width: 980px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+    height: auto;
+    text-align: left;
+    z-index: 3;
+    background: white;
+    border: 1px solid #dbe2e7 ;
+    border-top: 1px;
+    padding: 20px;
+    padding-top: 10px;
+    z-index: 0;
+    -moz-border-radius-bottomleft: 5px;  
+	-webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px;
+}
+input, textarea{
+	border: 1px solid lightgray;
+	color: gray;
+	margin: 20px auto auto auto;
+}
+#button_login{
+	position: relative;
+	display: block;
+	height: 35px;
+}
+input:focus, textarea:focus, #button_login:focus{
+	border: 1px solid #2BCBFF;
+	background: #f7fdff;
+}
+
+#main_form_area{
+	position: relative;
+	width: 600px;
+	height: auto;
+	margin: auto auto auto auto;
+	border: 0px solid lightgray;
+	padding: 5px;
+	
+}
+.form_element{
+	margin: auto auto auto 0px;
+}
+#message{
+	width: 400px;
+	height: 240px;
+	
+}
+.options{
+	position: relative;
+	display: block;
+	margin: 2px auto auto auto;
+	background:#c7eefb;
+	height: 25px;
+	width: 200px;
+	color: #095a76;
+	padding: 5px;
+	border: 1px solid #b7e8fa;
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+.options:hover{
+	background: #b7e8fa;
+}
+a{
+	color: inherit;
+}
+#categories{
+	position: relative;
+	width: 300px;
+	height: auto;
+	margin: auto auto;
+	padding: 10px;
+	border: 0px solid green;
+	color: #acaab4;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+}

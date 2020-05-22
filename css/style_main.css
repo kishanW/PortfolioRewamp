@@ -1,0 +1,133 @@
+@import url("../fonts/open-sans/style_fonts.css");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700,800");
+*{
+	border: 0px solid #999;
+	font-family: 'Open Sans' !important;
+	font-weight: 500;
+}
+hr{
+	background-color: rgba(0,0,0,0.4);
+	height: 1px;
+}
+#hr{
+	border-top:1px solid #ddd;
+	border-bottom: 1px solid #fff;
+	width: 100%;
+	display: block;
+}
+body{
+	font-size: 14px;
+	color: #fff;
+}
+h3{
+    font-size: 16pt;
+    letter-spacing: 0.01em;
+    line-height: 24pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h4{
+    font-size: 20pt;
+    letter-spacing: 0.01em;
+    line-height: 24pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+footer{
+	background: rgba(0,0,0,0.3);
+    color: #FFFFFF;
+    height: auto;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+}
+footer hr{
+	border-top:1px solid #ddd;
+	border-bottom: 1px solid #fff;
+}
+#container{
+	width: 1105px;
+	height: 450px;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: none;
+	margin: -10px auto auto auto;
+	border: 0px solid #eee;
+}
+#userInfo{
+	clear: right;
+	float: left;
+	background: #e74c3c;
+}
+#userPic{
+	width: 275px;
+	height: 225px;
+	background: #fff url("../images/userPic-2.jpg") center center no-repeat;
+	overflow: hidden;
+}
+#content{
+	width: 828px;
+	height: 370px;
+	background: #fff;
+	float: left;
+	overflow: hidden;
+}
+
+#floatMenu{
+	width: 100%;
+	float: left;
+}
+.box{
+	width: 255px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	margin-right: 1px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.box:hover{
+	cursor: pointer;
+	-moz-box-shadow: inset 0 0 1px 10px rgba(0,0,0,0.2);
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.3) ;
+}
+.box a:active, a:visited, a:link{
+	height: 100%;
+	width: 100%;
+	color: inherit;
+	text-decoration: none;
+}
+.box h3{
+	margin-top: -5px;
+	text-transform: none;
+}
+.box img{
+	float: right;
+}
+#introText{
+	background: #e74c3c;
+    height: 125px;
+    margin-right: 0;
+    text-transform: none;
+}
+#introText:hover{
+	cursor: default;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#projects{
+	background: #00A300;
+}
+#photography{
+	background: #f39c12;
+}
+#repo{
+	background: #3498db;
+}
+#contact{
+	background: #7f8c8d;
+}

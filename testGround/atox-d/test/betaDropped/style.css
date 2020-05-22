@@ -1,0 +1,170 @@
+*{
+	/*universal_changes aka Da big mother selector */
+	border: 0px solid gold;
+}
+body {
+    	background: #fff;
+    	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    	font-size: 11px;
+}
+
+hr {
+    	border: 0;
+    	color: #838080;
+    	background-color: #dbe2e7;
+   	height: 1px;
+    	width: 100%;
+    	text-align: left;
+}
+
+a {
+    	color: #1f363d;
+    	text-decoration: none;
+}
+
+b {
+    	position: relative;
+   	font-weight: bold;
+}
+
+h3 {
+    	font-family: "Trebuchet MS";
+    	position: relative;
+    	font-weight: bold;
+    	font-size: 14px;
+}
+
+h4 {
+    	font-family: "Trebuchet MS";
+    	position: relative;
+    	font-weight: bold;
+    	font-size: 13px;
+}
+
+h5 {
+    	position: relative;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#container {
+    	margin: -10px auto 20px auto;
+    	width: 800px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+    	height: 600px;
+    	text-align: left;
+    	z-index: 3;
+    	background: transparent;
+    	border: 0px solid #dbe2e7;
+    	/*border-top: 1px;padding-top: 0px;*/
+    	padding: 10px;
+    	padding-top: 10px;
+    	z-index: 0;
+	overflow: hidden;
+    
+	-moz-border-radius-topright: 5px;  
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;  
+	-webkit-border-top-left-radius: 5px;
+	
+	-moz-border-radius-bottomleft: 5px;  
+	-webkit-border-bottom-left-radius: 5px;
+    	-moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px;
+	
+}
+.left_pannel{
+	position: absolute;
+	width: 355px;
+	height: 600px;
+	background: white url(images/bg_gradient.png) repeat-x;
+	-moz-border-radius-bottomleft: 5px;  
+	-webkit-border-bottom-left-radius: 5px;
+	border-top: 0px solid #dbe2e7;
+	border-left: 0px solid #dbe2e7;
+	
+	-moz-border-radius-topleft: 5px;  
+	-webkit-border-top-left-radius: 5px;
+}
+#logo{
+	margin:196px auto auto auto;
+	width: 220px;
+	height: 220px;
+	background: transparent url(images/logo2.png);
+	border: 0px solid red;
+}
+#right_pannel{
+	position:absolute;
+	margin: 0px 0px auto 355px;
+	width: 445px;
+	height: 600px;
+	background:  url(images/material/cont_bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	-moz-border-radius-topright: 5px;  
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px;
+	overflow: hidden;
+}
+#text_box{
+	position: relative;
+	background: white;
+	border: 1px solid #c7d2d9;
+	width: 300px;
+	height: auto;
+	margin: 70px auto auto 17px;
+	padding: 10px;
+	color: gray;
+	font-size: 11px;
+	opacity: 0.9;
+	
+	-moz-border-radius-topright: 5px;  
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;  
+	-webkit-border-top-left-radius: 5px;
+				
+	-moz-border-radius-bottomleft: 5px;  
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px;
+}
+#splash_menu{
+	position: relative;
+	margin: 170px auto auto auto;
+}
+.splash{
+	position: relative;
+	width: 271px;
+	height: 41px;
+	margin: 1px auto auto auto;
+	background: url(images/splash_bg.png) no-repeat;
+	font-family: "Trebuchet MS";
+    	color: white;
+    	font-weight: bold;
+    	font-size: 18px;
+	line-height: 40px;
+	padding-left: 10px;
+	overflow: hidden;
+	border: 0px solid red;
+	display: block;
+}
+.splash:hover{
+	width: 271px;
+	height: 60px;
+	color: #777;
+	background: url(images/splash_bgh2.png) no-repeat center;
+	line-height: 60px;
+	overflow: hidden;
+	cursor: pointer;
+	opacity: 0.9;
+	padding-left: 10px;
+	border: 0px solid #ccc;
+}
+#footer{
+	position: relative;
+	width: 800px;
+	margin: -10px auto auto auto;
+	color: gray;
+    	font-size: 11px;
+	text-align: center;
+}

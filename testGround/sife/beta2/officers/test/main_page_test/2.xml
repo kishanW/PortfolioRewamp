@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="languages.xsl"?>
+<EVENTS>
+	<EVENT>
+		<TITLE>The title of the event</TITLE>
+		<SHORTDESC>This is the short description of the event which will be posted on the main page.</SHORTDESC>
+       	<LONGDESC>This is the long description of the event.</LONGDESC>
+       	<DATE>2011-02-23</DATE>
+		<TIME>5:00 PM</TIME>
+	</EVENT>
+</EVENTS>

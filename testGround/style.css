@@ -1,0 +1,130 @@
+body{
+	background: #000;
+}
+hr {
+    border: 0;
+    color: #6e6e6e;
+    background-color: #6e6e6e;
+    height: 1px;
+    width: 100%;
+    text-align: left;
+}
+.rounded-corners{
+	-moz-border-radius-bottomleft: 5px;  
+	-webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px;
+	
+	-moz-border-radius-topleft: 5px;  
+	-webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px; 
+	-webkit-border-top-right-radius: 5px;
+}
+#container{
+	position: relative;
+	margin: -10px auto auto auto;
+	width: 600px;
+	padding: 10px;
+	background: #080808;
+	border: 1px dotted #212121;
+	color: #6e6e6e;
+	font-family:verdana;
+	font-size: 11px;
+}
+#header{
+	font-family: Verdana;
+	font-size: 16px;
+	color: #bababa;
+	text-align: center;
+	background: #191919;
+	padding: 10px;
+}
+#footer{
+	font-family: Verdana;
+	font-size: 11px;
+	color: inherit;
+	text-align: center;
+	background: #191919;
+	padding: 10px;
+}
+#footer a{
+	color: inherit;
+}
+.link a{
+	display: block;
+	margin: auto auto;
+	color: #6e6e6e;
+	font-family:verdana;
+	font-size: 12px;
+	text-decoration: none;
+	width: 300px;
+	border: 0px solid green;
+}
+.link hr{
+	color: white;
+	background: white;
+}
+#guestBookForm{
+	width: 400px;
+}
+#content{
+	width: 550px;
+	height: auto;
+	padding: 5px;
+	border: 0px solid red;
+	margin: 20px auto auto auto;
+}
+.link{
+	width: 350px;
+	height: auto;
+	min-height:40px;
+	padding: 0px;
+	border: 0px solid orange;
+	margin: 10px auto auto auto;
+	font-size: 12px;
+	text-shadow: #6374AB 1px 1px 2px;
+	
+	-moz-border-radius-bottomleft: 10px;  
+	-webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 0px; 
+	-webkit-border-bottom-right-radius: 0px;
+	
+	-moz-border-radius-topleft: 0px;  
+	-webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topright: 10px; 
+	-webkit-border-top-right-radius: 10px;
+}
+.cmnt hr{
+	color: white;
+	background: white;
+}
+#cmntMore{
+	position: relative;
+	width:39px;
+	height:36px;
+	display:block;
+	background: url(images/cmntMore.png) no-repeat center center;
+}
+#cmntHeader{
+	width: 350px;
+	height:36px;
+	margin-top: -36px;
+	margin-left: 39px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #ffa800;
+	line-height: 36px;
+	color: white;
+	font-weight: bold;
+}
+#cmntBody{
+	width: 350px;
+	max-width: 350px;
+	height:auto;
+	margin-top: 0px;
+	margin-left: 39px;
+	padding: 10px;
+	background: #ffb422;
+	color: #000000;
+	display: none;
+}

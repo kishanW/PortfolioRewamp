@@ -1,0 +1,57 @@
+#slide { width:940px; height:871px; position:relative;   z-index:2; margin:0 auto;}
+
+.gallery {
+	width:868px;
+	position:relative;
+	z-index:2;
+	border:6px solid #fff;
+	box-shadow:0px 0px 4px #e4e4e4;
+	margin-top:40px;
+	
+}
+
+.pic {}
+
+.numStatus {display:none;}
+.items {display:none; }			  
+.pag {width:938px; position:relative; margin-top:48px;}
+.img-pags {position:static;left:1px;z-index:1;display:block; height:155px !important; width:940px !important; padding:2px 0 2px 0;}
+.img-pags ul {margin:0; overflow:hidden; height:155px !important;}
+.img-pags li {	margin:0 21px 0 0;width:216px;  float:left; display:block; border:6px solid #fff; box-shadow:0px 0px 1px #e4e4e4;}
+.img-pags li a { display:block; -webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;;}
+.img-pags li a img {opacity:1;  -webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+.img-pags li a span{ display:block;}
+.img-pags li.active a,.img-pags li a:hover{}
+.img-pags li.active a img,.img-pags li a:hover img{ opacity:0.6;}		
+
+
+.prev {
+	 position: absolute;
+	 display:block;
+    top: -37px;
+    left:30px;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    background: transparent url(../images/prevcar.png) no-repeat 0 0;
+}
+	.prev:hover {
+    background-position: -29px 0px ;}
+	
+	
+ .next{
+	 position: absolute;
+	 display:block;
+    top: -37px;
+    right: 28px;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    background: transparent url(../images/nextcar.png) no-repeat -27px 0;
+	z-index:102;
+}
+	 .next:hover {
+
+    background-position: 2px 0;
+	}
+

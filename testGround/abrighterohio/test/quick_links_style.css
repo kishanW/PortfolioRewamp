@@ -1,0 +1,49 @@
+/* <!---Designer: Kishan Wanigasinghe; Version: Sep_09_v3; Contact: anatoxind@gmail.com---> */
+.quick_links{
+	position: relative;
+	margin:0px auto auto 380px;
+	width: 498px;
+	height: 38px;
+	
+	z-index: 105;
+}
+.quick_links #connect a{
+	width: 165px;
+	height: 38px;
+	background: white url(images/connect.gif);
+	z-index: 105;
+	float: left;
+}
+.quick_links #connect a:hover{
+	background: white url(images/connect_h.gif);
+}
+
+.quick_links #contact a{
+	width: 165px;
+	height: 38px;
+	background: white url(images/contact.gif) right;
+	background-repeat: no-repeat;
+	z-index: 105;
+	float: left;
+	padding-left: 1px;
+	
+}
+.quick_links #contact a:hover{
+	background: white url(images/contact_h.gif) right;
+	background-repeat: no-repeat;
+}
+
+.quick_links #contribute a{
+	width: 165px;
+	height: 38px;
+	background: white url(images/contribute.gif) right;
+	background-repeat: no-repeat;
+	z-index: 105;
+	float: left;
+	padding-left: 1px;
+	
+}
+.quick_links #contribute a:hover{
+	background: white url(images/contribute_h.gif) right;
+	background-repeat: no-repeat;
+}

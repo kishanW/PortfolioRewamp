@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>Franklin SIFE | Web Mail System</title>
+        <link rel="stylesheet" type="text/css" href="../../style.css">
+        <link rel="stylesheet" type="text/css" href="../style_menu.css">
+		<style type="text/css">
+			
+		</style>
+		<script type="text/javascript" src="iemail.js"></script>
+        <script type="text/javascript">
+            
+        </script>
+    </head>
+    <body>
+       <h3>This is the i-email system for Franklin SIFE</h3>
+	   <hr>
+	   Please select who you want to email today from the options given below,<br/>
+	   <form action="iemail.class.php" method="post" onsubmit="return checkMarked()">
+			<input type="checkbox" id="member" value="M"/> Members
+			<input type="checkbox" id="officer" value="O"/> Officers
+			<input type="checkbox" id="alumni" value="A"/> Alumni
+			<br/><br/>
+			<input type="hidden" id="parties" name="parties"></input>
+
+			<!---subject--->
+			Subject: &nbsp;
+			<input type="text" name="subject" id="subject" maxlength="60"> <br/><br/>
+			From: &nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" name="sender_name" id="sender_name" maxlength="50"> <br/><br/>
+
+			<!---Email body--->
+			<textarea id="message" name="message" onfocus="clearThings('message')">Your message goes here.</textarea>
+
+			<br/><br/>
+			<input type="submit" name="submit" id ="button" value="Send">
+			<input type="reset" value="Clear" id="reset">
+	   </form>
+	   
+    </body>
+</html>

@@ -1,0 +1,177 @@
+	/* The left button */
+	.main_opts_l a{
+		position: absolute;
+		margin-left: 52px;
+		margin-top: 335px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/opts_l_normal.gif);
+		z-index: 99;
+	}
+	.main_opts_l a:hover{
+		background-image: url(images/opts_l_normal_flip.gif);
+	}
+	
+	/* The right button */
+	.main_opts_r a{
+		position: absolute;
+		margin-left: 225px;
+		margin-top: 335px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/opts_r_normal.gif);
+		z-index: 99;
+	}
+	.main_opts_r a:hover{
+		background-image: url(images/opts_r_normal_flip.gif);
+	}
+	
+	/* The center button */
+	.main_opts_m a{
+		position: absolute;
+		margin-left: 138px;
+		margin-top: 393px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/opts_m_normal_stu.gif);
+	}
+	.main_opts_m a:hover{
+		position: absolute;
+		margin-left: 138px;
+		margin-top: 393px;
+		background-image: url(images/opts_m_normal_stu_flip.gif);
+	}
+	/*--------------MAIN_CAMPUS.HTM Main Button settings--------------*/
+	/* The left button */
+	.main_opts_l_mc a{
+		position: absolute;
+		margin-left: 52px;
+		margin-top: 335px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/opts_l_normal_Phil.gif);
+		z-index: 99;
+		border: 1px solid red;
+	}
+	.main_opts_l_mc a:hover{
+		background-image: url(images/opts_l_normal_Phil_flip.gif);
+		border: 1px solid black;
+	}
+	
+	/* The right button */
+	.main_opts_r_mc a{
+		position: absolute;
+		margin-left: 225px;
+		margin-top: 335px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/opts_r_normal_frash.gif);
+		z-index: 99;
+	}
+	.main_opts_r_mc a:hover{
+		background-image: url(images/opts_r_normal_frash_flip.gif);
+	}
+	
+	/* The center button */
+	.main_opts_m_mc a{
+		position: absolute;
+		margin-left: 138px;
+		margin-top: 393px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/opts_m_normal_stu.gif);
+	}
+	.main_opts_m_mc a:hover{
+		position: absolute;
+		margin-left: 138px;
+		margin-top: 393px;
+		background-image: url(images/opts_m_normal_stu_flip.gif);
+	}
+	
+	/*--------------PHIL_JUNC.HTM Main Button settings--------------*/
+	/* The left button */
+	.main_opts_l_pj a{
+		position: absolute;
+		margin-left: 52px;
+		margin-top: 335px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/phil_images/opts_l_openlab.gif);
+		z-index: 99;
+	}
+	.main_opts_l_pj a:hover{
+		background-image: url(images/phil_images/opts_l_openlab_flip.gif);
+	}
+	
+	/* The right button */
+	.main_opts_r_pj a{
+		position: absolute;
+		margin-left: 225px;
+		margin-top: 335px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/phil_images/opts_r_lib.gif);
+		z-index: 99;
+	}
+	.main_opts_r_pj a:hover{
+		background-image: url(images/phil_images/opts_r_lib_flip.gif);
+	}
+	
+	/* The center button */
+	.main_opts_m_pj a{
+		position: absolute;
+		margin-left: 138px;
+		margin-top: 393px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/phil_images/opts_m_kiosk.gif);
+	}
+	.main_opts_m_pj a:hover{
+		position: absolute;
+		margin-left: 138px;
+		margin-top: 393px;
+		background-image: url(images/phil_images/opts_m_kiosk_flip.gif);
+	}
+	/*--------------SUBURB_CAMP.HTM Main Button settings--------------*/
+	/* The left button */
+	.main_opts_l_su a{
+		position: absolute;
+		margin-left: 52px;
+		margin-top: 335px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/suburban_images/opts_l_delaware.gif);
+		z-index: 99;
+	}
+	.main_opts_l_su a:hover{
+		background-image: url(images/suburban_images/opts_l_delaware_flip.gif);
+	}
+	
+	/* The right button */
+	.main_opts_r_su a{
+		position: absolute;
+		margin-left: 225px;
+		margin-top: 335px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/suburban_images/opts_r_northeast.gif);
+		z-index: 99;
+	}
+	.main_opts_r_su a:hover{
+		background-image: url(images/suburban_images/opts_r_northeast_flip.gif);
+	}
+	
+	/* The center button */
+	.main_opts_m_su a{
+		position: absolute;
+		margin-left: 138px;
+		margin-top: 393px;
+		width: 171px;
+		height: 56px;
+		background-image: url(images/suburban_images/opts_m_northwest.gif);
+	}
+	.main_opts_m_su a:hover{
+		position: absolute;
+		margin-left: 138px;
+		margin-top: 393px;
+		background-image: url(images/suburban_images/opts_m_northwest_flip.gif);

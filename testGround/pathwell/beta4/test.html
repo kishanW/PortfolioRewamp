@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>JavaScript Dropdown Menu Demo</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<ul class="menu" id="menu">
+	<li>
+		<li><a href="#" class="menulink">Dropdown One</a>
+		<ul>
+			<li><a href="#">Navigation Item 1</a></li>
+			<li>
+				<a href="#" class="sub">Navigation Item 2</a>
+				<ul>
+					<li class="topline"><a href="#">Navigation Item 1</a></li>
+					<li><a href="#">Navigation Item 2</a></li>
+					<li><a href="#">Navigation Item 3</a></li>
+					<li><a href="#">Navigation Item 4</a></li>
+					<li><a href="#">Navigation Item 5</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#" class="sub">Navigation Item 3</a>
+				<ul>
+					<li class="topline"><a href="#">Navigation Item 1</a></li>
+					<li><a href="#">Navigation Item 2</a></li>
+					<li>
+						<a href="#" class="sub">Navigation Item 3</a>
+						<ul>
+							<li class="topline"><a href="#">Navigation Item 1</a></li>
+							<li><a href="#">Navigation Item 2</a></li>
+							<li><a href="#">Navigation Item 3</a></li>
+							<li><a href="#">Navigation Item 4</a></li>
+							<li><a href="#">Navigation Item 5</a></li>
+							<li><a href="#">Navigation Item 6</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Navigation Item 4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Navigation Item 4</a></li>
+			<li><a href="#">Navigation Item 5</a></li>
+		</ul>
+	</li>
+	<li><a href="#" class="menulink">Non-Dropdown</a></li>
+	<li>
+		<a href="#" class="menulink">Dropdown Two</a>
+		<ul>
+			<li><a href="#">Navigation Item 1</a></li>
+			<li>
+				<a href="#" class="sub">Navigation Item 2</a>
+				<ul>
+					<li class="topline"><a href="#">Navigation Item 1</a></li>
+					<li><a href="#">Navigation Item 2</a></li>
+					<li><a href="#">Navigation Item 3</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#" class="menulink">Dropdown Three</a>
+		<ul>
+			<li><a href="#">Navigation Item 1</a></li>
+			<li><a href="#">Navigation Item 2</a></li>
+			<li><a href="#">Navigation Item 3</a></li>
+			<li><a href="#">Navigation Item 4</a></li>
+			<li><a href="#">Navigation Item 5</a></li>
+			<li>
+				<a href="#" class="sub">Navigation Item 6</a>
+				<ul>
+					<li class="topline"><a href="#">Navigation Item 1</a></li>
+					<li><a href="#">Navigation Item 2</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Navigation Item 7</a></li>
+			<li><a href="#">Navigation Item 8</a></li>
+			<li><a href="#">Navigation Item 9</a></li>
+			<li><a href="#">Navigation Item 10</a></li>
+		</ul>
+	</li>
+</ul>
+
+<script type="text/javascript">
+	var menu=new menu.dd("menu");
+	menu.init("menu","menuhover");
+</script>
+<div id = "copyright"> 
+			<strong>
+				<a href="http://atox.axspace.com/" target="new"></>www.atox.axspace.com</a> | Copyright 2009.
+			</strong>
+		</div>
+		
+		<div id="main_menu">
+			<img src="img/menu_bgrnd.jpg">
+		</div>
+		<div id="comp_intro">
+			
+			
+			PathWell Enterprises provides assembly automation solutions, quality confirmation and test systems<br>
+			and numerous engineering services to a variety of different manufacturing industries including<br>
+			automotive, medical, business equipment and consumer products.<br>
+			We offer total turnkey systems, build to print, design for customer builds, process engineering services<br>
+			and consulting to meet the individual needs of our customers.<br>
+			<p>
+			At PathWell we understand that in this highly competitive business environment companies must closely<br>
+			monitor all expenditures and cut costs wherever possible. We have taken many steps to reduce waste in<br>
+			all areas our operation in order to provide our customers with the most value for their investment.<br>
+			<p>
+			Combining the industries latest proven cutting edge technologies with our experience and innovative,<br>
+			"out side the box", thinking, PathWell is dedicated to providing our customers with the highest quality<br>
+			state of the art products and services at the most competitive price delivered on time.
+
+		</div>
+		<div id="main_img"> 
+			<img src=img/main_img.gif>
+		</div>
+		
+		</div>
+
+</body>
+</html>

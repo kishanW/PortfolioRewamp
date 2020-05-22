@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="languages.xsl"?>
+<LANGUAGES>
+    <LANGUAGE>
+        <NAME>Java</NAME>
+        <SHORT_DESC> Java is an imperative, object-oriented programming language designed specifically for developing Web applications. </SHORT_DESC>
+        <LONG_DESC> Java is an imperative, object-oriented programming language. It provides an assortment of numeric data types as well as string and Boolean data types. It allows you to define new classes. You can also define new classes by inheriting the functionality of an existing class. Begin and end block features help to structure code. Variables declared within a block are visible only within the block.  </LONG_DESC>
+    </LANGUAGE>
+    <LANGUAGE>
+        <NAME>CSS</NAME>
+        <SHORT_DESC> CSS is a a markup language used for formatting HTML elements.  </SHORT_DESC>
+        <LONG_DESC> CSS is a markup language which is used for formatting HTML content. CSS does include attributes of Object Oriented concept, but it is not considered as a programming language.</LONG_DESC>
+    </LANGUAGE>
+    <LANGUAGE>
+        <NAME>JavaScript</NAME>
+        <SHORT_DESC> JavaScript is an imperative language designed for web proggramming.</SHORT_DESC>
+        <LONG_DESC> JavaScript is an imperative language which runs at the client side at run time. This is Object Oriented and this is used to develop web applications and to handle event based programming for websites.  </LONG_DESC>
+    </LANGUAGE>
+	<LANGUAGE>
+        <NAME>XML</NAME>
+        <SHORT_DESC> XML is a markup language </SHORT_DESC>
+        <LONG_DESC> JavaScript is an imperative language which runs at the client side at run time. This is Object Oriented and this is used to develop web applications and to handle event based programming for websites.  </LONG_DESC>
+    </LANGUAGE>
+</LANGUAGES>

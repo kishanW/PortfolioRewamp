@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Atox-D | Welcome</title>
+		<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>
+		<style type="text/css">
+			#contact{
+				position: relative;
+				margin: 80px auto auto auto;
+				width:600px;
+				height: auto;
+				padding: 5px;
+				background: white;
+				border: 1px solid #B8B8B3;
+			}
+			input{
+				background: white;
+				border: 1px solid gray;
+			}
+			textarea{
+				background: white;
+				border: 1px solid gray;
+			}
+		</style>	
+		<script type="text/javascript" src="contact.js"></script>
+	</head>
+	<body>
+		<div class="container" style="height: auto; padding-bottom: 0px">
+			
+			<div class="logo">
+				<a href="index.htm"></a>
+			</div>
+			<div class="title_bar" style="background: url(images/header.gif)">
+				<a href="index.htm"></a>
+			</div>
+			<div class="links">
+				<div id="l1">
+					<a href="portf.htm"></a>					
+				</div>
+				<div id="l2">
+					<a href="resume.htm"></a>					
+				</div>
+				<div id="l3">
+					<a href="about.htm"></a>					
+				</div>
+				<div id="l4">
+					<a href="photo.htm"></a>					
+				</div>
+				<div id="l5">
+					<a href="contact.htm"></a>					
+				</div>
+			</div>	
+			<div class="links2">
+				<a href="portf.htm">Portfolio</a> |
+				<a href="resume.htm">Resume</a> |
+				<a href="about.htm">About_Me</a> |
+				<a href="photo.htm">Photography</a> |
+				<a href="contact.htm">Contact</a>				
+			</div>
+			
+			<div id="contact">
+				<form method="POST" action="contact.php">
+					Fields marked (*) are required
+					
+					<p>Company:<br>	
+					<input type="text" name="Company" id="company" maxlength="20">
+	
+					<p>Name:* <br>
+					<input type="text" name="Name" id="name" maxlength="30">
+					
+					<p>Email:* <br>
+					<input type="text" name="Email" id="email" maxlength="30">
+					
+					<p><input type="checkbox" name="More_info" value="Yes" id="more_info">:More info needed
+					
+					<div id="cmnt" style="margin: -90px 0px 0px 180px">
+						<p>Message:* <br>			
+						<textarea name="Message" style="width: 300px; height: 100px;" id="message"></textarea>
+						<p><input type="button" name="submit" id ="button" value="Send" onclick="checkFields()">
+						<input type="reset" value="Clear">
+					</div>
+				</form>
+			
+			</div>
+			<div class="bottom_border">
+				<a href="index.htm">www.atox-d.com</a> | 2009 &#169 | Colleague Website[<a href="http://www.akentoyo.com/" target="new">www.akentoyo.com</a>]			</div>
+		</div>
+	</body>
+</html>

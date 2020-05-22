@@ -1,0 +1,165 @@
+/*  
+Theme Name: Grass Roots
+Theme URI: http://www.wellmedicated.com/themes/grassroots/
+Description: For the Crunchy-Granola-Backpacking Blogger
+Version: 1.0
+Author: Andrew Lindstrom
+Author URI: http://www.andrewlindstrom.com
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+body { line-height:1; font:62.5%/1.6 Arial, "Trebuchet MS", Verdana, Helvetica, sans-serif; color: #ebe5cb; background: #57524b url(images/bg.gif) repeat-x; }
+
+
+/* --= Typography & Colors =-- */
+a { color: #c3e062; }
+a:hover { color: #86a030; }
+#menu a { font-size: 12px; color: #c8c3af; text-decoration: none; font-style: italic; }
+#menu a:hover { color: #bcd760; }
+.postmetadata { font: 12px "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif; color: #57524b; font-weight: bold; }
+.postmetadata a { text-decoration: none; color: #ebe5cb; font-weight: normal; }
+.postmetadata a:hover { color: #57524b; }
+.postheader h2, .postheader h2 a, h3 { font: 16px "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif; color: #ebe5cb; font-weight: bold; text-decoration: none; letter-spacing: -0.03em; }
+.postheader h2 a:hover { color: #c3e062; }
+.subheader { font: 10px "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif; color: #8f8d82; text-decoration: none; }
+.subheader a { color: #8f8d82; text-decoration: none; }
+.subheader a:hover { color: #c3e062; }
+.entry { padding: 0 18px; font-size: 14px; }
+.readmore a { text-decoration: none; }
+h2.widgettitle { font: bold 14px "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif; color: #ebe5cb; text-decoration: none; letter-spacing: 0.02em; }
+.widget a { font: 12px "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif; color: #ebe5cb; text-decoration: none; letter-spacing: -0.02em; }
+.navigation a { text-decoration: none; padding: 4px; }
+.navigation a:hover { background-color: #4f4a44; }
+.postmeta { padding: 0 15px; color: #8f8d82; font-size: 0.8em; font-style: italic; }
+.pagetitle { text-align: right; color: #67625b; font-style: italic; }
+blockquote { margin: 0 15px; padding: 0 20px; background: url(images/quote.gif) left top no-repeat; color: #8f8d82; height: 100%;}
+#blogname { font: bold 28px "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif; text-decoration: none; float: left; padding-right: 10px; }
+#blogname:hover { color: #dddcdc; }
+#blogdescription { font: 11px "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif; color: #ebe5cb; font-style: italic; }
+#footer { color: #c8c3af; }
+#footer a { color: #fff; text-decoration: none; font-weight: bold; }
+#footer a:hover { color: #bcd760; text-decoration: underline; }
+/* --= End Typography & Colors =-- */
+
+
+/* --= Begin Structure =-- */
+#page { width: 1010px; margin: 0 auto; }
+#content { width: 570px; float: left;}
+#menu ul { float: right; }
+#header { width: 570px; }
+#headerimg { padding: 85px 0 35px 15px; }
+#headertxt { padding: 80px 0 40px 0; }
+#blogdescription { display: block; line-height: 40px; }
+.post { background: url(images/postbg.gif) repeat-y; height: 100%; }
+#sidebar-1 { width: 200px; float: left; margin-left: 20px; margin-top: -95px; }
+#sidebar-2 { width: 200px; float: left; margin-left: 20px; margin-top: -95px; }
+#footer { clear: both; background: url(images/footerbg.gif) bottom repeat-x; text-align: left; padding: 50px 0 10px 0; height: 100%; }
+#footerwrapper { width: 1010px; margin: 0 auto; }
+/* --= End Structure==- */
+
+
+/* --= Begin Images =-- */
+/*	Using 'class="alignright"' on an image will align the image to the right. And using 'class="centered', will of course center the image. 
+	This is much better than using align="center", being much more futureproof (and valid) */
+.entry img { padding: 3px; margin: 0 0 5px 0; display: block;  background-color: #57524b; border: 1px solid #5d5851;}
+p img { padding: 0; max-width: 100%; }
+img.centered { display: block; margin-left: auto; margin-right: auto; }
+img.alignright { padding: 4px; margin: 0 0 2px 7px; display: inline; }
+img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
+.alignright { float: right; }
+.alignleft {	float: left; }
+/* --= End Images =-- */
+
+
+/* --= Begin Lists =-- */
+ol,ul { list-style:none; }
+.entry ul { list-style: inside; padding: 0 0 15px 15px; }
+.entry ul li { list-style-image: url(images/bullet.gif) }
+.entry ol { list-style:decimal inside; padding: 0 0 15px 15px; }
+.entry li { padding-bottom: 0.2em; }
+#menu ul { line-height: 36px; }
+#homelink a { padding-right: 11px; }
+#menu .page_item a { padding: 11px; background: url(images/menudivider3.gif) center left no-repeat;}
+.widget li a { display: block; padding: 5px 10px; }
+.widget li a:hover { background-color: #4f4a44; color: #adc35d; }
+.widget li { border-bottom: 1px solid #67625b; }
+/* --= End Entry Lists =-- */
+
+
+/* --= Begin Comments =-- */
+#commentform #submit { border: 1px solid #67625b; background-color: #67625b; color: #ebe5cb; }
+#commentform #submit:hover { border:1px solid #67625b; background-color: #4f4a44; color: #c3e062; }
+textarea#comment { width:400px; height:70px; }
+ol.commentlist { margin-bottom: 2.5em; }
+.commentlist li { margin:1em; padding:10px; border-top:1px solid #67625b; border-bottom:1px solid #67625b; background-color:#57524b; color:#ebe5cb; font-size:1.2em; line-height:1.7em; }
+.commentlist li.alt { margin:0 1em; padding:10px; color:#ebe5cb; font-size:1.2em; border:none; background-color:transparent; } 
+.commenttext { clear:both; }
+.commenttop { padding-bottom:0.5em; }
+.commenttop a { color:#8f8d82; background-color:transparent; }
+.commenttop a:hover { color:#8f8d82; background-color:transparent; text-decoration:underline; }
+.commentmetadata { float:right; }
+.commenttop div.commentmetadata a { text-decoration:none; color:#8f8d82; }
+.commenttop div.commentmetadata a:hover { color:#c3e062; background-color:transparent; text-decoration:none;}
+.commentauthor, .commentauthor a { float:left; color: #8f8d82; }
+.commentauthor a:hover { color: #c3e062; }
+.commentmetadata a { color: #8f8d82; }
+#commentform { padding: 18px; }
+#commentform p { margin:0.5em 0.5em 0 0.5em; }
+#commentform input,#commentform textarea { border:1px solid #67625b; font:12px "Trebuchet MS", Helvetica, Verdana, Arial, sans-serif; color:#ebe5cb; background-color: #57524b; margin:0; padding:0.2em; }
+#commentform input:hover,#commentform textarea:hover { border:1px solid #8f8d82; }
+#comments, #respond { margin-top: 30px; }
+/* --= End Comments =-- */
+
+
+/* --= Begin Calendar =-- */
+#calendar_wrap { width:100%; margin:0 0 1em 0; }
+#calendar_wrap a { color: #bcd760; }
+#calendar_wrap a:hover { color: #86a030 }
+#wp-calendar caption { font-weight:400; font-size:10px; padding:0.2em 0; text-transform:uppercase; letter-spacing:0.3em; color:#ebe5cb; }
+#wp-calendar { width:100%; border-collapse:collapse; }
+#wp-calendar th { width:26px; font-size:0.9em; line-height:1.7em; border-top: 1px solid #67625b; border-bottom: 1px solid #67625b; text-align:center; color:#67625b; }
+#wp-calendar td { width:26px; line-height:1.8em; color:#ebe5cb; text-align:center; }
+#wp-calendar td#next,#wp-calendar td#prev { width:78px; font-size:0.8em; letter-spacing:1px; text-transform:uppercase; }
+/* --= End Calendar =-- */
+
+
+/* --= Begin Searchbox =-- */
+#searchetc p {padding: 0px 0px 2px 4px; }
+#searchetc { float:right; margin-top: 12px; font: 12px "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif; color: #ebe5cb; font-weight: bold; }
+#searchetc #searchbox { width:180px; height:22px; background:url(images/searchbox.gif) no-repeat; }
+#searchetc #searchbox #s { float:left; padding:0; margin:2px 0 0 5px; border:0; width:125px; background:none; font:12px "Trebuchet MS", Helvetica, Arial, Verdana, Sans-serif; font-weight:700; color:#1c1c1c; letter-spacing:0.03em; }
+#searchetc #searchbox #go { float:left; }
+/* --= End Searchbox =-- */
+
+
+/* --= Begin Various Tags & Classes =-- */
+img#wpstats { width:0px; height:0px; padding:0px; border:none; overflow:hidden; } /* for wp stats smileyface */
+.entry p { padding-bottom: 1.5em; }
+#menu li {  display: inline; margin: 0; padding: 0; border: 0; margin-left: -4px;}
+#menu li#homelink { margin-left: 0; }
+.post { margin-bottom: 40px; }
+.posttop { background: url(images/posttop.gif) no-repeat; height: 100%; }
+.postheader { padding: 18px 18px 10px 18px; }
+.postmetadata { background: #57524b url(images/postbottom.gif) no-repeat; height: 26px; padding: 3px 0 0 18px; }
+.cal { background: url(images/cal.gif) center center no-repeat; font-family: Arial, "Trebuchet MS", Helvetica, Verdana, sans-serif; line-height: 1em; float: left; margin-right: 1em; margin-top: 2px;}
+.month { color: #fff; font-size: 10px; font-weight: bold; display: block; text-transform:uppercase; width: 35px; text-align: center; padding-top: 3px; }
+.day { color: #504b45; font-size: 16px; font-weight: bold; width: 34px; text-align: center; display: block; padding: 6px 0 6px 0; }
+.readmore { margin-bottom: 0px; padding-right: 7px; text-align: right; background: url(images/readmore.gif) right 10px no-repeat; display: block; }
+.readmore a { display: block; }
+a.more-link { text-decoration: none; }
+.sidebarbox { background: url(images/sidebarbox.gif) no-repeat; height: 67px; margin-bottom: 30px; }
+div.sidebarbox:hover { background: url(images/sidebarbox.gif) bottom no-repeat; }
+#feed { font: 12px "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif; color: #ebe5cb; font-weight: bold; background: url(images/rss.gif) 20px 19px no-repeat; padding: 17px 15px 15px 60px; }
+#feed a { font-weight: normal; text-decoration: none; }
+.widgettitle { background: url(images/star.gif) left 1px no-repeat; padding-left: 18px; margin-bottom: 4px; }
+.widget { margin-bottom: 35px; padding: 0 5px; }
+.textwidget { margin-top: 3px; padding: 3px; border-top: 1px solid #67625b; border-bottom: 1px solid #67625b; font-size: 12px; color: #b0aa98; }
+#tag_cloud { padding-bottom: 5px; border-bottom: 1px solid #67625b; text-align: center; }
+#tag_cloud .widgettitle { padding-bottom: 5px; border-bottom: 1px solid #67625b; text-align: left; }
+#tag_cloud a { line-height: 1em; padding: 0 1px; }
+#tag_cloud a:hover { color: #bcd760; }
+.clr { clear: both; }
+.post h3 { padding-left: 18px; }
+.recentcomments { padding: 5px 10px; display: block; font-size: 12px;  }
+/* --= End Various Tags & Classes =-- */

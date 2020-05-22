@@ -1,0 +1,77 @@
+/* <!---Designer: Kishan Wanigasinghe; Version: Sep_09_v3; Contact: anatoxind@gmail.com---> */
+.menu{
+	width: 950px;
+	height: 39px;
+	
+	position: relative;
+	margin: 0px auto auto 0px;
+	background: #faf9f8;
+	z-index: 101;
+}
+
+.menu #button1 a{
+	width: 158px;
+	height: 39px;
+	overflow: hidden;
+	float: left;
+	background: #faf9f8 url(images/but_1.gif);
+	z-index: 102;
+}
+.menu #button1 a:hover{
+	background: #faf9f8 url(images/but_1_h.gif);
+}
+.menu #button2 a{
+	width: 158px;
+	height: 39px;
+	overflow: hidden;
+	float: left;
+	background: #faf9f8 url(images/but_2.gif);
+	z-index: 102;
+}
+.menu #button2 a:hover{
+	background: #faf9f8 url(images/but_2_h.gif);
+}
+.menu #button3 a{
+	width: 158px;
+	height: 39px;
+	overflow: hidden;
+	float: left;
+	background: #faf9f8 url(images/but_3.gif);
+	z-index: 102;
+}
+.menu #button3 a:hover{
+	background: #faf9f8 url(images/but_3_h.gif);
+}
+.menu #button4 a{
+	width: 158px;
+	height: 39px;
+	overflow: hidden;
+	float: left;
+	background: #faf9f8 url(images/but_4.gif);
+	z-index: 102;
+}
+.menu #button4 a:hover{
+	background: #faf9f8 url(images/but_4_h.gif);
+}
+.menu #button5 a{
+	width: 158px;
+	height: 39px;
+	overflow: hidden;
+	float: left;
+	background: #faf9f8 url(images/but_5.gif);
+	z-index: 102;
+}
+.menu #button5 a:hover{
+	background: #faf9f8 url(images/but_5_h.gif);
+}
+.menu #button6 a{
+	width: 160px;
+	height: 39px;
+	overflow: hidden;
+	float: left;
+	background: #faf9f8 url(images/but_6.gif) repeat-x;
+	z-index: 102;
+}
+.menu #button6 a:hover{
+	background: #faf9f8 url(images/but_6_h.gif);
+}

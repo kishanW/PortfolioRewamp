@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>OOops | Franklin SIFE</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style_menu.css">
+        <link rel="SHORTCUT ICON" href="images/favicon.gif"/>
+		<style type="text/css">
+            
+            .post {
+                width: auto;
+                background: transparent;
+                border: 0px;
+            }
+            
+            .event_light {
+                display: block;
+                width: 500px;
+                height: 150px;
+                background: url(images/uc.png) no-repeat;
+                background-position: center center;
+                border: 1px solid #B8B8B3;
+                margin: auto auto auto auto;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="container">
+            <a href="index.htm">
+                <div id="logo">
+                </div>
+            </a>
+            <a href="index.htm">
+                <div id="header">
+                </div>
+            </a>
+            	<div>
+		<div class="sliderbutton"><img src="images/left.gif" width="32" height="38" alt="Previous" onclick="slideshow.move(-1)" /></div>
+		<div id="slider">
+			<ul>
+				<li id="content">
+					<h1>TinySlider - Simple JavaScript Slideshow</h1>
+					<p>This super lightweight (1.5 KB) sliding JavaScript slideshow script can easily be customized to integrate with any website through CSS. You can add any content to it, not just images, and it gracefully degrades without JavaScript support. The script supports automatic rotation with the option to auto-resume, an active class on a navigation list if applicable, and a direction toggle (vertical or horizontal).</p>
+					<p><em>For complete details visit <a href="http://www.leigeber.com/">leigeber.com</a>.</em></p>
+				</li>
+				<li><img src="../images/main_3.png" width="500" height="300" alt="Sea turtle" /></li>
+				<li><img src="photos/coral-reef.jpg" width="500" height="300" alt="Coral Reef" /></li>
+				<li><img src="photos/blue-fish.jpg" width="500" height="300" alt="Blue Fish" /></li>
+			</ul>
+		</div>
+		<div class="sliderbutton"><img src="images/right.gif" width="32" height="38" alt="Next" onclick="slideshow.move(1)" /></div>
+	</div>
+	<ul id="pagination" class="pagination">
+		<li onclick="slideshow.pos(0)">1</li>
+		<li onclick="slideshow.pos(1)">2</li>
+		<li onclick="slideshow.pos(2)">3</li>
+		<li onclick="slideshow.pos(3)">4</li>
+	</ul>
+</div>
+<script type="text/javascript">
+var slideshow=new TINY.slider.slide('slideshow',{
+	id:'slider',
+	auto:3,
+	resume:true,
+	vertical:false,
+	navid:'pagination',
+	activeclass:'current',
+	position:0
+});
+</script>
+            <div id="menu">
+                <a href="about.htm">
+                    <div id="item1">
+                        About Us
+                    </div>
+                </a>
+                <a href="benefits.htm">
+                    <div id="item2">
+                        Benefits
+                    </div>
+                </a>
+                <a href="events.htm">
+                    <div id="item3">
+                        Events
+                    </div>
+                </a>
+                <a href="#">
+                    <div id="item4">
+                        Networking/ Sponsors
+                    </div>
+                </a>
+                <a href="#">
+                    <div id="item5">
+                        Career Connect
+                    </div>
+                </a>
+                <a href="faq.htm">
+                    <div id="item6">
+                        FAQ
+                    </div>
+                </a>
+                <a href="contact.htm">
+                    <div id="item_last">
+                        Contact
+                    </div>
+                </a>
+            </div>
+            <div class="post" style="margin-top: 10px;">
+                <div class="event_light">
+                </div>
+            </div>
+            <!---This is the end of the info box--->
+			
+            <div class="footer">
+                <hr>www.FranklinSIFE.org | 2010 Copyright Protected. | www.atox-d.com
+            </div>
+        </div><!--container_finished-->
+    </body>
+</html>

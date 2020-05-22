@@ -1,0 +1,161 @@
+*{
+	font-family: 'Segoe UI Light', 'OpenSansLight', Verdana, Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4{
+	font-family: AmaranthRegular;
+	line-height: 35px;
+	margin-bottom: 0px;
+}
+.head-content .logo{
+	margin-top: 45px;
+}
+/* --------------NAVIGATION --------------*/
+nav ul.sf-menu li a{
+	font-family: 'Segoe UI Light', 'OpenSansLight', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+#head{
+	z-index: 300;
+	overflow: visible;
+}
+#head .head-content ul li ul{
+	background-color: #666;
+	padding: 16px 0;
+}
+#head .head-content ul li ul li:hover{
+	background-color: #888 !important;
+}
+#head .head-content ul li ul li a{
+	font-family: 'Segoe UI Light', 'OpenSansLight', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+#head .head-content ul li ul li:hover a{
+	color: #eee;
+}
+/* --------------FOOTER --------------*/
+.foot-menu ul li a{
+	font-family: 'Segoe UI Light', 'OpenSansLight', Verdana, Arial, Helvetica, sans-serif;
+}
+footer{
+	margin-bottom: 48px;
+}
+.pagination{
+	list-style: none;
+}
+.block2 p{
+   text-align: justify;
+}
+.sf-menu{
+	list-style: none;
+}
+footer .footer-block{
+	height: 135px;
+}
+footer .footer-block h4{
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+footer .footer-block .fleft{
+	height: 61px;
+	margin-top: -40px;
+
+}
+footer .footer-block .marg6{
+	margin-right: 0px;
+	height: 61px;
+	margin-top: -40px;
+}
+footer .footer-block .foot-menu{
+	height: 0px;
+	margin-top: 80px;
+}
+/* --------------MISC BODY ARRANGEMENTS --------------*/
+.box-6-block img{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+.box-6-block p{
+	width: 560px;
+}
+.marg12{
+	margin-top: 5px;
+	width: 560px;
+}
+.marg13 img{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*
+html body header#head div.head-content nav ul.sf-menu li ul li{
+	height: 10px;
+	margin: 0px auto;
+
+	padding: 10px;
+	font-size: 14px !important;
+}
+html body header#head div.head-content nav ul.sf-menu li ul li a{
+	height: 10px;
+	background-color: #f45;
+	font-size: 14px !important;
+}
+*/
+/* --------------CONTACT FORM --------------*/
+.contactFormButton{
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+.contactFormButton:hover{
+	cursor: pointer;
+}
+#form fieldset{
+	border: 0px solid #eee;
+}
+#form input, #form textarea{
+	border: 1px solid #ddd;
+	padding: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+	color: #444;
+	font-family: verdana;
+	font-size: 12px;
+}
+#form input:focus, #form textarea:focus{
+	border: 1px solid #03A696;
+}
+#form textarea{
+	margin-bottom: 20px;
+	width: 380px;
+}
+#form .error,#form .empty {
+	color: #ff6674;
+}
+#formSend{
+	width: 80px;
+	background-color:#025959;
+	border: 0px solid #f23 !important;
+	color: #eee !important;
+}
+#formSend:hover{
+	background-color: #03A696;
+	color: #eee !important;
+	border: 1px solid #025959;
+}
+#formReset{
+	width: 80px;
+	background-color: #F22613;
+	border: 0px solid #f23 !important;
+	color: #eee !important;
+}
+#formReset:hover{
+	background-color: #f45;
+}
+#formSubmitError:hover{
+	cursor: pointer;
+}
+#formSubmitError img{
+	float: right;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PROJECTS>
+	<PROJECT>
+		<ID>2011_01</ID>
+		<TITLE>Business Builders</TITLE>
+		<OWNERS>0001</OWNERS>
+		<DESCRIPTION>This is the description of this project.</DESCRIPTION>
+	</PROJECT>
+	<PROJECT>
+		<ID>2011_02</ID>
+		<TITLE>Internal Marketing</TITLE>
+		<OWNERS>0026, 0046</OWNERS>
+		<DESCRIPTION>This is the description of this project.</DESCRIPTION>
+	</PROJECT>
+</PROJECTS> 

@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>Monthly Meeting | July, 2010 | Franklin SIFE</title>
+        <link rel="stylesheet" type="text/css" href="../../slideshow/style.css" />
+        <link rel="stylesheet" type="text/css" href="../../style.css">
+        <link rel="stylesheet" type="text/css" href="../../style_menu.css">
+        <link rel="SHORTCUT ICON" href="../../images/favicon.gif"/>
+        <script type="text/javascript" src="../../slideshow/script.js">
+        </script>
+        <style type="text/css">
+            
+            .post {
+                width: auto;
+                background: transparent;
+                border: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="../../index.htm">
+                <div id="logo">
+                </div>
+            </a>
+            <a href="../../index.htm">
+                <div id="header">
+                </div>
+            </a>
+            <div class="slideshow">
+                <div>
+                    <div class="sliderbutton">
+                        <img src="../../slideshow/left.gif" width="32" height="38" alt="Previous" onclick="slideshow.move(-1)"/>
+                    </div>
+                    <div id="slider">
+                        <ul>
+                            <li>
+                                <img src="images/1.jpg" width="500" height="375" alt="Monthly Meeting" />
+                            </li>
+                            <li>
+                                <img src="images/2.jpg" width="500" height="375" alt="Flash drive event" />
+                            </li>
+                            <li>
+                                <img src="images/3.jpg" width="500" height="375" alt="Flash drive event" />
+                            </li>
+                            <li>
+                                <img src="images/4.jpg" width="500" height="375" alt="Flash drive event" />
+                            </li>
+                            <li>
+                                <img src="images/5.jpg" width="500" height="375" alt="Monthly Meeting" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sliderbutton">
+                        <img src="../../slideshow/right.gif" width="32" height="38" alt="Next" onclick="slideshow.move(1)"/>
+                    </div>
+                </div>
+                <ul id="pagination" class="pagination">
+                    <li onclick="slideshow.pos(0)">
+                        1
+                    </li>
+                    <li onclick="slideshow.pos(1)">
+                        2
+                    </li>
+                    <li onclick="slideshow.pos(2)">
+                        3
+                    </li>
+                    <li onclick="slideshow.pos(3)">
+                        4
+                    </li>
+                    <li onclick="slideshow.pos(4)">
+                        5
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                var slideshow = new TINY.slider.slide('slideshow', {
+                    id: 'slider',
+                    auto: 3,
+                    resume: true,
+                    vertical: false,
+                    navid: 'pagination',
+                    activeclass: 'current',
+                    position: 0
+                });
+            </script>
+            <div id="menu">
+                <a href="../../about.htm">
+                    <div id="item1">
+                        About Us
+                    </div>
+                </a>
+                <a href="../../benefits.htm">
+                    <div id="item2">
+                        Benefits
+                    </div>
+                </a>
+                <a href="../../events.htm">
+                    <div id="item3" style="background: #2E4356; color: white;">
+			   Events
+		      </div>
+                </a>
+                <a href="#">
+                    <div id="item4">
+                        Networking/ Sponsors
+                    </div>
+                </a>
+                <a href="#">
+                    <div id="item5">
+                        Career Connect
+                    </div>
+                </a>
+                <a href="../../faq.htm">
+                    <div id="item6">
+                        FAQ
+                    </div>
+                </a>
+                <a href="../../contact.htm">
+                    <div id="item_last">
+                        Contact
+                    </div>
+                </a>
+            </div>
+            <div class="post" style="margin-top: 10px;">
+                <div class="event_desc">
+			The monthly meting of the Franklin SIFE members was held at the Phillips Hall Library at 5PM.
+			<p /> <hr> <br />
+			
+                </div>
+            </div>
+            <a href="../../events.htm">
+                <div class="more">
+                    back?
+                </div>
+            </a>
+            <!---This is the end of the info box--->
+            <div class="footer">
+                <hr><br>www.FranklinSIFE.org | 2010 &#169
+            </div>
+        </div><!--container_finished-->
+    </body>
+</html>

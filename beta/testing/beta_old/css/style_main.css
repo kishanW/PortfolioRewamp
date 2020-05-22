@@ -1,0 +1,105 @@
+*{
+	border: 0px solid #999;
+}
+hr{
+	background-color: #eee;
+	height: 1px;
+}
+body{
+	font-family: 'Segoe UI Light', 'OpenSansLight', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #fff;
+}
+h3{
+    font-family: 'Segoe UI Light','OpenSansLight',Verdana,Arial,Helvetica,sans-serif;
+    font-size: 20pt;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    line-height: 24pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+footer{
+	width: 100%;
+	border-top: 1px solid #fff;
+	margin-top: 10px;
+	padding-top: 2px;
+}
+#container{
+	width: 1110px;
+	height: 450px;
+	background: #fff;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin: -10px auto auto auto;
+	border: 0px solid #eee;
+}
+#userInfo{
+	clear: right;
+	float: left;
+}
+#userPic{
+	width: 275px;
+	height: 225px;
+	background: #fff;
+	overflow: hidden;
+}
+#content{
+	width: 828px;
+	height: 370px;
+	background: #fff;
+	float: left;
+	overflow: hidden;
+}
+#content img{height: 100%; width: 100%}
+#floatMenu{
+	width: 100%;
+	float: left;
+	margin-top: 4px;
+}
+.box{
+	width: 255px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	margin-right: 2px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.box:hover{
+	cursor: pointer;
+}
+.box a:active, a:visited, a:link{
+	height: 100%;
+	width: 100%;
+	color: inherit;
+	text-decoration: none;
+}
+.box h3{
+	margin-top: -5px;
+	text-transform: none;
+}
+.box img{
+	float: right;
+}
+#introText{
+	background: #f45;
+	height: 125px;
+	text-transform: none;
+}
+#introText:hover{
+	cursor: default;
+}
+#projects{
+	background: #00A300;
+}
+#photography{
+	background: #ff8c00;
+}
+#repo{
+	background: #2D89EF;
+}
+#contact{
+	background: #555555;
+}

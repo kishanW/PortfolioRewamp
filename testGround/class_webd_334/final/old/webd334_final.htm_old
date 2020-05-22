@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Welcome | Final Project | WEBD 334</title>
+		<link rel="stylesheet" type="text/css" href="kishanStyle.css">
+		<style>
+			body{background: #2b2b2b; padding: 10px;}
+			hr{background: #444; height: 1px; border: none}
+			.container{
+				width: 800px;
+				margin: auto auto
+			}
+			#headerTitle{
+				border: 0px solid #444;
+				color: #666;
+				font-family: verdana;
+				font-size: 16px;
+				font-weight: bold;
+				text-align: left;
+				padding: 10px;
+			}
+			.assign{
+				width: 700px;
+				margin: 10px auto auto auto;
+				background: #333;
+				border: 1px solid #444;
+				color: #666;
+				font-family: verdana;
+				font-size: 14px;
+				font-weight: bold;
+				padding: 10px;
+			}
+			#footer{
+				border: 0px solid #444;
+				color: #666;
+				font-family: verdana;
+				font-size: 11px;
+				font-weight: normal;
+				text-align: center;
+				padding: 10px;
+			}
+		</style>		
+		<script>
+			
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div id='mainImg' style='background: transparent url("images/webd334_8-2_UC.png"); width: 800px; height: 600px; display: block;'></div>			
+		</div>
+		<div id="footer">
+			<hr>
+			2011 &#169 | 	KishanW | WEBD334
+		</div>
+	</body>
+</html>

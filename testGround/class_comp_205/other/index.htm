@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>Assignment 3-1 | COMP_205 | KishanW</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        	<h2>The languages I know for right now...<hr></h2>
+			<h3>Click on a language name to see the long description of it. <br></h3>
+            <script type="text/javascript">
+                if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+                    xmlhttp = new XMLHttpRequest();
+                }
+                else {// code for IE6, IE5
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                xmlhttp.open("GET", "LANGUAGES.xml", false);
+                xmlhttp.send();
+                xmlDoc = xmlhttp.responseXML;
+                
+                
+                var x = xmlDoc.getElementsByTagName("LANGUAGE");
+                for (i = 0; i < x.length; i++) {
+                    document.write("<div class='lang_title'>");
+						document.write("<a href='#" + 
+						x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue+"'>"+
+						x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue+
+					"</a>");
+					document.write("</div>");
+					
+                    
+                    document.write("<div class='highlights'>");
+                    	document.write(x[i].getElementsByTagName("SHORT_DESC")[0].childNodes[0].nodeValue);
+					
+					document.write("</div>");
+                }
+				document.write("<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><h2>Long descriptions</h2><hr>");
+				
+				var x = xmlDoc.getElementsByTagName("LANGUAGE");
+                for (i = 0; i < x.length; i++) {
+					document.write("<a name='" + 
+					x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue+
+					"'></a>");
+					document.write("<div class='lang_title'>");
+						document.write(x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue);
+					document.write("</div>");
+					
+                    document.write("<div class='desc'>");
+					document.write(x[i].getElementsByTagName("LONG_DESC")[0].childNodes[0].nodeValue);
+                   
+					document.write("</div>");
+                }
+            </script>
+        </div>
+        <!--container_finished-->
+    </body>
+</html>

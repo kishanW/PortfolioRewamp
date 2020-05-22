@@ -1,0 +1,75 @@
+body {
+	font-family: Calibri, "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+hr {
+    border: 0;
+    color: #838080;
+    background-color: #dbe2e7;
+    height: 1px;
+    width: 100%;
+    text-align: left;
+}
+h3 {
+    font-family: "Trebuchet MS";
+    position: relative;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h4 {
+    font-family: "Trebuchet MS";
+    position: relative;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+h5 {
+    position: relative;
+    font-weight: bold;
+    font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+.container {
+    margin: -10px auto 20px auto;
+    width: 600px;  /*Replace the xxxx with the the width of your site (eg 800px)*/
+    height: auto;
+    text-align: left;
+    z-index: 3;
+    background: white;
+    border: 1px solid #dbe2e7;
+	/*#dbe2e7 */
+    border-top: 1px;
+    padding: 20px;
+    padding-top: 0px;
+    z-index: 0;
+    -moz-border-radius-bottomleft: 5px;  
+	-webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px;
+}
+input, textarea{
+	border: 1px solid lightgray;
+}
+input:focus, textarea:focus{
+	border: 1px solid gold;
+}
+#sub_but{
+	border: 1px solid gray;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+#sub_but:focus{
+	border: 1px solid gold;
+}
+.pulled_comment{
+	position: relative;
+	margin: 2px auto auto auto;
+	background: gold;
+	border: 1px solid orange;
+	padding: 10px;
+	width: 200px;
+	height: 30px;
+	font-size: 11px;
+}

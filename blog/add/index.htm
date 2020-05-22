@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Add Entry | Intern Blog</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/style_addDataForm.css">
+		<link rel="stylesheet" type="text/css" href="../fonts/open-sans/style_fonts.css">
+		<script type="text/javascript" src="../js/general.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("div#header").fadeIn("fast");
+				$("div#container").hide();
+				$("div#container").fadeIn("slow");
+			});
+		</script>
+	</head><!---head-->
+	
+	<body>
+		<div id="container">
+			<div id="header">
+				<h3>Adding a blog entry</h3><hr>
+			</div>
+			<div id="viewEntries" onclick="location.href='../';">
+				View Added Entries
+			</div>
+			<div id="commentForm">
+				<form name="commentForm" action="process.php" method="post">
+					The Date<BR>
+					<input type="text" name="postdate" id="postdate" maxlength="20" value="The date" onfocus="clearThings(this.name)" onblur="resetNeed(this.name)">
+					<BR><BR>
+
+					Blog entry text<BR>
+					<textarea name="blogpost" id="blogpost"  onfocus="clearThings(this.name)" onblur="resetNeed(this.name)">Your text goes here.</textarea>
+					<br><br>
+					<input type="submit" name="submit" id ="button" value="Send"><input type="reset" value="Clear" id="reset">	                        
+				</form>
+			</div>
+		</div>
+	</body><!--body-->
+</html>

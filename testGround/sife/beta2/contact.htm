@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!---Designer: Kishan Wanigasinghe; Version: Apr-10-2010; Contact: www.atox-d.com/contact.htm--->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>Franklin SIFE| Contact Us</title>
+        <script type="text/javascript" src="contact.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style_menu.css">
+        <link rel="SHORTCUT ICON" href="images/favicon.gif"/>
+        <style type="text/css">
+            
+            .post {
+                width: auto;
+                background: transparent;
+                border: 0px;
+            }
+            
+            .event {
+                border: 1px solid #B8B8B3;
+            }
+            
+            #button, #reset {
+                background: white;
+                border: 1px solid #B8B8B3;
+            }
+            
+            .boxs:focus {
+                background: #D7EDFF;
+                border: 1px solid #B8B8B3;
+            }
+            
+            #cmnt {
+                position: relative;
+                margin: -175px 0px 0px 300px;
+            }
+            
+            #main_image {
+                background: url(images/2010_08_9_2.png) no-repeat;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="index.htm">
+                <div id="logo">
+                </div>
+            </a>
+            <a href="index.htm">
+                <div id="header">
+                </div>
+            </a>
+            <div id="main_image">
+            </div>
+            <a href="register.htm"><!--registration-->
+	            <div class="register">
+	               &#187; Click here to register and become a member.
+	            </div>
+			</a>
+	     <a href="http://www.sife.org/GetInvolved/pages/register.aspx" target="new"><!--registration-->
+	            <div class="register_main_org">
+	                <!---this is the button to direct the people to the main SIFE website for registreation.-->
+			  &#187; Register with SIFE headquarters
+	            </div>
+	     </a>
+            <div id="menu">
+                <a href="about.htm">
+                    <div id="item1">
+                        About Us
+                    </div>
+                </a>
+                <a href="benefits.htm">
+                    <div id="item2">
+                        Benefits
+                    </div>
+                </a>
+                <a href="/events/">
+                    <div id="item3">
+                        Events
+                    </div>
+                </a>
+                <a href="/projects/">
+                    <div id="item4">
+                        Projects
+                    </div>
+                </a>
+                <a href="uc.htm">
+                    <div id="item5">
+                        Career Connect
+                    </div>
+                </a>
+                <a href="faq.htm">
+                    <div id="item6">
+                        FAQ
+                    </div>
+                </a>
+                <div id="item_last" style="background: #2E4356; color: white;">
+                    Contact
+                </div>
+            </div>
+            <div class="post" style="margin-top: 10px;">
+                <div class="test">
+                    <!--start_test_div_box-->
+                    <form onsubmit="checkFields()" action="contact.php">
+                        <h4>Fields marked (*) are required</h4>
+                        <hr/>
+                        <br>
+                        First Name:
+                        <br>
+                        <input type="text" name="fName" id="fName" maxlength="20">
+                        <br>
+                        <br>
+                        Last Name:
+                        <br>
+                        <input type="text" name="lName" id="lName" maxlength="30">
+                        <br>
+                        <br>
+                        Email:* 
+                        <br>
+                        <input type="text" name="Email" id="email" maxlength="30">
+                        <br>
+                        <br>
+                        <input type="checkbox" name="cList" value="Yes" id="cList" checked="Yes">:Add you to the contact list?
+                        <div id="cmnt">
+                            <!--start_comment_div_box-->
+                            <br>
+                            <br>
+                            Message:* 
+                            <br>
+                            <textarea name="Message" id="message" style="width: 300px; height: 100px;"></textarea>
+                            <br>
+                            <br>
+                            <input type="submit" name="submit" id ="button" value="Send"> <input type="reset" value="Clear" id="reset">
+                        </div><!--close_comment_div_box-->
+                    </form>
+                </div><!--close_test_div_box-->
+            </div><!---This is the end of the info box--->
+            <div class="footer">
+                <hr>www.FranklinSIFE.org | 2010 &#169
+            </div>
+        </div><!--container_finished-->
+    </body>
+</html>

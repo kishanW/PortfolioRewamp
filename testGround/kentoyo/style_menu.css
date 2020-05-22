@@ -1,0 +1,119 @@
+#menu { 				/*---The_big_mother---*/
+    position: relative;
+    width: 225px;
+    height: 242px;
+    margin: -240px auto auto 0px;
+    background: none;
+    display: block;
+    border: 0px #dbe2e7 solid;
+    line-height: 40px;
+    font-size: 12px;
+	font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-size: 14px;
+	color: #ffffff;
+	padding: 0px 0px 00px 0px;
+	text-align: left;
+	overflow: hidden;
+}
+#menu #item1 {/*---1---*/
+	position: relative;
+	width: auto;
+    height: 47px;
+    margin: 0px auto auto auto;
+	background: transparent  /*url(images/menu_1.gif)*/;
+    display: block;
+    border-bottom: 1px #ffffff solid;
+	padding-left: 10px;
+	color: #ffffff;
+}
+#menu #item2{/*---2---*/
+	float: none;
+	width: auto;
+    height: 47px;
+    margin: auto auto auto auto;
+	background: transparent /*url(images/menu_2.gif)*/;
+    display: block;
+    border-bottom: 1px #ffffff solid;
+	padding-left: 10px;
+	color: #ffffff;
+	
+}
+#menu #item3{/*---3---*/
+	float: none;
+	width: auto;
+    height: 47px;
+    margin: auto auto auto auto;
+	background: transparent  /*url(images/menu_3.gif)*/;
+    display: block;
+    border-bottom: 1px #ffffff solid;
+	padding-left: 10px;
+	color: #ffffff;
+	
+}
+#menu #item4{/*---4---*/
+	float: none;
+	width: auto;
+    height: 47px;
+    margin: auto auto auto auto;
+	background: transparent  /*url(images/menu_4.gif)*/;
+    display: block;
+    border-bottom: 1px #ffffff solid;
+	padding-left: 10px;
+	color: #ffffff;
+	
+}
+#menu #item5{/*---5---*/
+	float: none;
+	width: auto;
+    height: 47px;
+    margin: auto auto auto auto;
+	background: transparent  /*url(images/menu_5.gif)*/;
+    display: block;
+    border-bottom: 0px #ffffff solid;
+	padding-left: 10px;
+	color: #ffffff;
+	
+}
+
+/*----------------The mouseovers------------------------*/
+#menu #item1:hover{/*---1---*/
+	background: white url(images/menu_bg.png) bottom repeat-x;
+	cursor:pointer;
+	color: #000000;
+	height: 55px;
+	font-size:22px;
+	line-height: 50px;
+}
+#menu #item2:hover{/*---2---*/
+	background: white url(images/menu_bg.png) bottom repeat-x;
+	cursor:pointer;
+	color: #000000;
+	height: 55px;
+	font-size:22px;
+	line-height: 50px;
+}
+#menu #item3:hover{/*---3---*/
+	background: white url(images/menu_bg.png) bottom repeat-x;
+	cursor:pointer;
+	color: #000000;
+	height: 55px;
+	font-size:22px;
+	line-height: 50px;
+}
+#menu #item4:hover{/*---4---*/
+	background: white url(images/menu_bg.png) bottom repeat-x;
+	cursor:pointer;
+	color: #000000;
+	height: 55px;
+	font-size:22px;
+	line-height: 50px;
+}
+#menu #item5:hover{/*---5---*/
+	background: white url(images/menu_bg.png) bottom repeat-x;
+	cursor:pointer;
+	color: #000000;
+	height: 55px;
+	font-size:22px;
+	line-height: 50px;
+}

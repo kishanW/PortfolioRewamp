@@ -1,0 +1,102 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,800,700");
+*{
+	font-family: 'Open Sans', /*Segoe UI, */'OpenSans-Light', Verdana !important;
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */
+	box-sizing: border-box !important;         /* Opera/IE 8+ */
+}
+body{
+	font-size: 12px;
+	background-color: #eee;
+	padding: 0 0px;
+}
+.mainMenuItems{
+	min-width: 19.5%;
+	padding: 10px 5px;
+	background: #81b71a;
+	border: none;
+	color: #eee;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 2px;
+	margin-right: 3px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	text-align: center;
+}
+.mainMenuItems:hover{
+	background: #28ae60;
+	cursor: pointer;
+}
+header{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+header > img{
+	margin: auto auto;
+	display: block;
+}
+section[id=section_main_banner]{
+	background: #333 url("../images/main_image_bg.png");
+	padding: 75px 0;
+}
+	section[id=section_main_banner] h2{
+		color: #eee;
+		font-size: 80px;
+		text-align: center;
+		font-weight: bolder;
+	}
+	section[id=section_main_banner] p{
+		color: #eee;
+		font-size: 20px;
+		text-align: center;
+		font-weight: 800;
+		text-transform: capitalize;
+	}
+section[id=section_buttons]{
+	padding: 20px 0;
+}
+	section[id=section_buttons] ul{
+		max-width: 60%;
+		margin: auto auto;
+	}
+section[id=section_sell_form]{
+	width: 100%;
+	background: #ddd;
+	margin: auto auto;
+	font-size: 18px;
+}
+	#sell_form{
+		color: #555;
+		width: 40%;		
+		padding: 50px 20px;
+		margin: auto auto;
+	}
+	#sell_form input[type=text], textarea{
+		margin: 2px auto;
+		width: 100%;
+		color: #999;
+		padding: 5px 3px;
+		border-radius: 5px;
+		border: none;
+		font-size: 13px;
+	}
+	section[id=section_sell_form] button{
+		padding: 5px;
+		margin-top: 10px;
+		width: 100px;
+		background: #16a085;
+		border: none;
+		color: #eee;
+		font-weight: 700;
+	}
+	section[id=section_sell_form] button:hover{
+		background: #27ae60;
+		cursor: pointer;
+
+	};

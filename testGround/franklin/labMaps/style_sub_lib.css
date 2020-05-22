@@ -1,0 +1,41 @@
+			.logo{
+				position: absolute;
+				margin-left: 818px;
+				margin-top: -20px;
+				z-index:3;
+			}
+			.Labmaps_title{
+				position: absolute;
+				z-index: 2;
+			}
+			.Labmaps_text{
+				position: absolute;
+				margin-left: 10px;
+				margin-top: 70px;
+				font:11px Verdana,Arial;
+				letter-spacing: 5px;
+				color: white;
+				z-index: 2;
+			}
+			.top_header{
+				z-index: 4;
+			}
+			.main_opts_l{
+				position: absolute;
+				margin-left: 52px;
+				margin-top: 335px;
+			}
+			.main_opts_r{
+				position: absolute;
+				margin-left: 225px;
+				margin-top: 335px;
+			}
+			.Labmaps_text a:link {text-decoration: none; color: white;}
+			.Labmaps_text a:visited {text-decoration: none; color: white;}
+			.Labmaps_text a:active {text-decoration: none; color: white;}
+			.Labmaps_text a:hover {text-decoration: underline; color: white;}
+			
+			body a:link {text-decoration: none; color: #3f6075;}
+			body a:visited {text-decoration: none; color: #3f6075;}
+			body a:active {text-decoration: none; color: #3f6075;}
+			body a:hover {text-decoration: underline; color: #003049;}

@@ -1,0 +1,27 @@
+* {position: relative;padding:0}
+body {font:12px Verdana,Arial; color:#555; background:#222}
+p {line-height:1.4; margin-bottom:12px}
+#wrapper {width:800px; margin:auto auto auto auto}
+
+.sliderbutton { width:32px; padding-top:0px; margin: 0px 0px 0px auto; display: none;}
+.sliderbutton img {cursor:pointer}
+.sliderbutton img:hover {background:#666}
+#slideshow {position: relative; width:800px; height:600px; border:0px solid #fff; background:#fff; 
+	margin: 100px auto auto auto; }/*slide show*/
+#slides {position:relative; width:800px; height:600px; list-style:none; margin-top: 0px}/*the slide_pics*/
+#slides li {width:800px; height:600px}
+
+.pagination {float:left; list-style:none; height:25px; margin:0px 0 0 0px}
+/*the numbered navigation */
+.pagination li {float:left; cursor:pointer; padding:1px 15px; background:#666; border:1px solid #999; margin:0 4px 0 0; text-align:center; color:white; font-size:9px}
+.pagination li:hover {background:#777; border:1px solid white; color:#000}
+li.current {border:1px solid #ccc; background:#888}
+
+li#content {width:464px; height:270px; padding:15px 18px 15px 18px; background:#fff}
+#content h1 {font:22px Georgia,Verdana; margin-bottom:15px; color:#036; }
+
+input:focus{
+	background: #d1fc8c;
+	border: 3px solid #c4fb6b;
+	color: green;
+}

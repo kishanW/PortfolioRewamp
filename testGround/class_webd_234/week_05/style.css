@@ -1,0 +1,147 @@
+body{
+	font:70% Verdana, Geneva;
+}
+hr {
+	border: 0;
+	color: #9E9E9E;
+	background-color: #9E9E9E;
+	height: 1px;
+	width: 100%;
+	text-align: left;
+}
+h3{
+	font-size:100%;
+}
+h4{
+	font-size:95%;
+}
+.container{
+	margin:-5px auto 20px auto;
+	width: 1024px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+	height: auto;
+	text-align:left;
+	z-index: 3;
+	background-color: #EFF0EE;
+	border: 1px solid #B8B8B3;
+	border-top: 0px solid #B8B8B3;
+	z-index: 0;
+}
+.logo{
+	width: 200px;
+	height:174px;
+	z-index:1;
+}
+.title_bar{
+	
+	margin: -174px auto auto 200px;
+	width: 824px;
+	height: 100px;
+	background: black url(images/header.gif);
+	z-index:1;
+	border: 0px solid black;
+}
+.links {
+	margin: 0px auto auto 200px;
+	width: 440px;
+	height: 50px;
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 0px solid black;
+	border-bottom: 0px solid black;
+}
+.links #l1 a{
+	float: left;
+	display: block;
+	width: 110px;
+	height: 50px;
+	background: black url(images/l1.gif);	
+}
+.links #l1 a:hover{
+	background: black url(images/l1_h.gif);	
+}
+.links #l2 a{
+	float: left;
+	display: block;
+	width: 110px;
+	height: 50px;
+	background: black url(images/l2.gif);	
+}
+.links #l2 a:hover{
+	background: #55A9FF;
+	background: black url(images/l2_h.gif);	
+}
+.links #l3 a{
+	float: left;
+	display: block;
+	width: 110px;
+	height: 50px;
+	background: black url(images/l3.gif);	
+}
+.links #l3 a:hover{
+	background: #55A9FF;
+	background: black url(images/l3_h.gif);	
+}
+.links #l4 a{
+	float: left;
+	display: block;
+	width: 110px;
+	height: 50px;
+	background: black url(images/l4.gif);
+}
+.links #l4 a:hover{
+	background: #55A9FF;
+	background: black url(images/l4_h.gif);	
+}
+
+.links2{
+	margin: -80px auto auto 225px;
+	width: 550px;
+	height: 50px;
+	color: #B8B8B3;
+	word-spacing: 25px;
+}
+.links2 a{
+	color: #959595;
+	text-decoration: none;
+}
+.links2 a:hover{
+	color: white;
+	text-decoration: underline;
+}
+.bottom_border{
+	position: absolute;
+	margin: 620px auto auto -1px;
+	background: black;
+	width: 1024px;
+	height: 31px;
+	color: #959595;
+	text-align: center;
+	line-height: 240%;
+	border: 1px solid black;
+}
+.bottom_border a{
+	color: #959595;
+	text-decoration: none;
+}
+.bottom_border a:hover{
+	color: white;
+	text-decoration: underline;
+}
+#slideshow{
+	position: relative;
+	margin: 140px auto auto auto;
+	width: 600px;
+	
+	background: white;
+	padding: 5px;
+	border: 1px solid #959595;
+}
+#intro_txt{
+	position: relative;
+	margin: 20px auto auto auto;
+	width: 600px;
+	
+	background: white;
+	padding: 5px;
+	border: 1px solid #959595;
+}
